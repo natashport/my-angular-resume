@@ -1,1 +1,65 @@
-/* You can add global styles to this file, and also import other style files */
+
+$primary: #05bdda;
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+section {
+ padding-top: 50px;
+}
+
+#aside {
+  width: 300px;
+  position: relative;
+  min-height: 400px;
+  height: 100%;
+  overflow-y: scroll;
+  z-index: 1000;
+}
+
+#my-resume-menu-toggler {
+  z-index: 1001;
+}
+
+// .colorlib-nav-toggle {
+//   position: fixed;
+//   left: -5px;
+//   top: 0px;
+//   z-index: 9999;
+//   cursor: pointer;
+//   opacity: 1;
+//   visibility: hidden;
+//   padding: 20px;
+//   transition: 0.5s;
+// }
+
+// .colorlib-nav-toggle i {
+//   position: relative;
+//   display: inline-block;
+//   zoom: 1;
+//   width: 30px;
+//   height: 2px;
+//   transition: all .2s ease-out;
+// }
+
+#main {
+  position: relative;
+  height: 100%;
+  overflow-y: scroll;
+  z-index: 999;
+  @include media-breakpoint-up(lg) { 
+    width: calc(100% - 300px); 
+  }
+  @include media-breakpoint-down(lg - 10px) { 
+    width: 100%; 
+  }
+transition: all .5s ease-out;
+      
+}
+
+.nav-link {
+  text-transform: uppercase
+}
+
+.show {
+  display: block !important;
+}

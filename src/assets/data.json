@@ -1,0 +1,326 @@
+{
+  "name": "Natalia Shport",
+  "firstname": "Natalia",
+  "lastname": "Shport",
+  "email": "shport.natalia@gmail.com",
+  "address": {
+    "street": "3218 W Las Positas Blvd",
+    "city": "Pleasanton",
+    "state": "CA",
+    "zipcode": "94588"
+  },
+  "phone": "+1(925)-223-7272",
+  "website": "shport.info",
+  "profiles": {
+    "github": "",
+    "linkedin": ""
+  },
+  "summary": "FrontEnd web-developer with a focus on UI/UX, looking for an opportunity in web development, working on learning modern JavaScript libraries as Angular and React.",
+  "skills": [
+    "HTML/HTML5", 
+    "CSS/CSS3/SASS", 
+    "XML/XSLT", 
+    "Javascript/ES6",
+    "JSON",
+    "jQuery",
+    "Bootstrap",
+    "AngularJS",
+    "ReactJS",
+    "LAMP/PHP",
+    "UNIX/LINUX",
+    "GIT/GitHub",
+    "NPM/YARN",
+    "UI/UX",
+    "Responsive Web Design",
+    "Adobe packages",
+    "Graphic optimization",
+    "Teamwork",
+    "Timeline management",
+    "Task prioritizing",
+    "Technical documentation",
+    "Issue resolution",
+    "Customer support",
+    "Databases MySQL, PostgreSQL",
+    "Content management",
+    "Data analysis",
+    "Online learning"
+  ],
+  "technologies": [
+    {
+      "name": "HTML",
+      "code": "html",
+      "icon": "fab fa-code"
+    },
+    {
+      "name": "CSS",
+      "code": "css",
+      "icon": "fab fa-css"
+    },
+    {
+      "name": "JavaScript",
+      "code": "js",
+      "icon": "fab fa-js"      
+    },
+    {
+      "name": "PHP",
+      "code": "php",
+      "icon": "fab fa-php"      
+    },
+    {
+      "name": "MySQL",
+      "code": "database",
+      "icon": "fas fa-database"      
+    },
+    {
+      "name": "HTML5",
+      "code": "html5",
+      "icon": "fab fa-html5"      
+    },
+    {
+      "name": "CSS3",
+      "code": "css3",
+      "icon": "fab fa-css3"      
+    },
+    {
+      "name": "AngularJS",
+      "code": "angular",
+      "icon": "fab fa-angular"      
+    },
+    {
+      "name": "Bootstrap",
+      "code": "bootstrap",
+      "icon": "fab fa-bootstrap"      
+    },
+    {
+      "name": "JSON",
+      "code": "json",
+      "icon": "fab fa-json"      
+    },
+    {
+      "name": "Font Awesome",
+      "code": "font-awesome",
+      "icon": "fab fa-font-awesome"      
+    }
+  ],
+  "experience": [
+    {
+      "title": "Web Developer",
+      "company": "Independent Consulting",
+      "location": "Pleasanton, CA",
+      "dates": {
+        "start": {
+          "month": "",
+          "year": "2009"
+        },
+        "end": {
+          "month": "",
+          "year": ""
+        }
+      },
+      "responsibilities": [
+        "Technical support and consulting",
+        "Maintenance, content management",
+        "Gathering requirements from the customer and developing new modules",
+        "Promotion newsletters templates and validation for tsum.ru"
+      ],
+      "projects": [
+        {
+          "url": "bm-buket.ru"
+        },
+        {
+          "url": "yarnart.ru"
+        }
+      ]
+    },
+    {
+      "title": "FrontEnd Team Lead​",
+      "company": "ADV/web-engineering co.",
+      "location": "Moscow, Russia",
+      "dates": {
+        "start": {
+          "month": "07",
+          "year": "2005"
+        },
+        "end": {
+          "month": "12",
+          "year": "2008"
+        }
+      },
+      "responsibilities": [
+        "Managing all aspects of front-end engineering and project delivery",
+        "Collaboration with UI/UX and back-end engineering teams",
+        "Gathering and clarifying the business requirements with customers",
+        "Technical documentation creation",
+        "Hiring, training and supervising new team members",
+        "Customer support"
+      ],
+      "projects": [
+        {
+          "url": "panasonic.ru"
+        },
+        {
+          "url": "toyotabc.ru"
+        },
+        {
+          "url": "colliers.ru"
+        }
+      ]
+    },
+    {
+      "title": "FrontEnd Engineer",
+      "company": "ADV/web-engineering co.",
+      "location": "Moscow, Russia",
+      "dates": {
+        "start": {
+          "year": "2002"
+        },
+        "end": {
+          "month": "07",
+          "year": "2005"
+        }
+      },
+      "responsibilities": [
+        "Developing templates with various frameworks / HTML, CSS, XML, XSLT",
+        "Graphic optimization for Web",
+        "Animated GIFs and FLASH ad banners",
+        "Content management / SQL, XML, SSH",
+        "Technical documentation",
+        "QA validation and performance optimization. "
+      ]
+    },
+    {
+      "title": "FrontEnd Engineer",
+      "company": "Web2000",
+      "location": "Moscow, Russia",
+      "dates": {
+        "start": {
+          "year": "2001"
+        },
+        "end": {
+          "year": "2002"
+        }
+      },
+      "responsibilities": [
+        "Developing templates from visual design mockups / HTML, CSS, XML, XSLT",
+        "Updating and managing databases / SQL, SSH",
+        "Graphic optimization for Web",
+        "QA validation"
+      ],
+      "projects": [
+        {
+          "url": "bolero.ru"
+        },
+        {
+          "url": "giftland.ru"
+        },
+        {
+          "url": "podarki.com"
+        },
+        {
+          "url": "dostavkalinz.ru"
+        }
+      ]    
+    },
+    {
+      "title": "CAD Engineer​",
+      "company": "TOM KLAIM",
+      "location": "Moscow, Russia",
+      "dates": {
+        "start": {
+          "month": "07",
+          "year": "1996"
+        },
+        "end": {
+          "month": "12",
+          "year": "2000"
+        }
+      },
+      "responsibilities": [
+        "Automation manufacturing processes using computer-aided design systems (CAD)"
+      ]
+    }
+  ],
+  "education": {
+    "school": "Moscow State University of Design and Technology (MSUDT)",
+    "degree": "Master of Engineering",
+    "field of study": "CAD/CADD Drafting and Design Technology",
+    "graduated": "1995"
+  },
+  "projects": [
+    { 
+      "projectname": "shport.info",
+      "url": "http://shport.info",
+      "dates": {
+        "start": {
+          "year": "2019"
+        }
+      },
+      "description": "Resume and Portfolio, made with AngularJS templates to show JSON data + Bootstrap library for UI with some customisation HTML3/CSS/SASS",
+      "technologies": [
+        "html5",
+        "css3",
+        "sass",
+        "angular",
+        "bootstrap",
+        "font-awesome"
+      ]
+    },   
+    { 
+      "projectname": "yarnart.ru",
+      "url": "http://yarnart.ru",
+      "dates": {
+        "start": {
+          "year": "2006"
+        },
+        "end": {
+          "year": "2016"
+        }
+      },
+      "description": "Knitters and crocheters community, yarn/projects database and marketplace - UI design, eCommerce marketplace development (orders creation, handling and tracking), forum/community and photo gallery maintenance, end-user support",
+      "technologies": [
+        "html",
+        "css",
+        "js", 
+        "php"
+      ]
+    },
+    {
+      "projectname": "bm-buket.ru",
+      "url": "http://bm-buket.ru",
+      "dates": {
+        "start": {
+          "year": "2003"
+          },
+        "end": {
+          "year": "2017"
+        }
+      },
+      "description": "Online store for the flower designer - The concept, UI/UX, DB data structure and content management system, marketplace functionality, full-stack engineering",
+      "technologies": [
+        "html",
+        "css",
+        "js", 
+        "php"
+      ]
+    },
+    {
+      "projectname": "cnts.ru",
+      "url": "http://cnts.ru",
+      "dates": {
+        "start": {
+          "year": "2001"
+          },
+        "end": {
+          "year": "2003"
+        }
+      },
+      "description": "Catalogue of communication systems and services - UI design, concept, DB data structure, content management system, full-stack engineering and project delivery",
+      "technologies": [
+        "html",
+        "css",
+        "js", 
+        "php"
+      ]
+    }
+  ]
+}
