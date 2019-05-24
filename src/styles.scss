@@ -1,4 +1,3 @@
-
 $primary: #05bdda;
 
 @import "../node_modules/bootstrap/scss/bootstrap";
@@ -14,4 +13,8 @@ $primary: #05bdda;
   @include media-breakpoint-down(lg - 10px) { 
     width: 100%; 
   } 
+}
+
+section {
+  margin-top: 50px;
 }

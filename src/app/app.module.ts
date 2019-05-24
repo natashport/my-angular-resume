@@ -11,6 +11,7 @@ import { ProjectsComponent } from './projects/projects.component';
 import { AboutComponent } from './about/about.component';
 import { EducationComponent } from './education/education.component';
 import { ContactsComponent } from './contacts/contacts.component';
+import { CarouselItemComponent } from './carousel-item/carousel-item.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { ContactsComponent } from './contacts/contacts.component';
     ProjectsComponent,
     AboutComponent,
     EducationComponent,
-    ContactsComponent
+    ContactsComponent,
+    CarouselItemComponent
   ],
   imports: [
     BrowserModule,

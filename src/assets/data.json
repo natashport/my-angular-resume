@@ -11,14 +11,28 @@
   },
   "phone": "+1(925)-223-7272",
   "website": "shport.info",
-  "profiles": {
-    "github": "",
-    "linkedin": ""
-  },
+  "profiles": [
+    {
+      "profilename": "linkedin",
+      "url": "http://",
+      "icon": "fab fa-linkedin"
+    },
+    {
+      "profilename": "github",
+      "url": "http://",
+      "icon": "fab fa-github"
+    },
+    {
+      "profilename": "linkedin",
+      "url": "http://",
+      "icon": "fab fa-linkedin"
+    }
+  ],
   "summary": "FrontEnd web-developer with a focus on UI/UX, looking for an opportunity in web development, working on learning modern JavaScript libraries as Angular and React.",
   "skills": [
     "HTML/HTML5", 
-    "CSS/CSS3/SASS", 
+    "CSS/CSS3",
+    "SASS",
     "XML/XSLT", 
     "Javascript/ES6",
     "JSON",
@@ -26,6 +40,7 @@
     "Bootstrap",
     "AngularJS",
     "ReactJS",
+    "API",
     "LAMP/PHP",
     "UNIX/LINUX",
     "GIT/GitHub",
@@ -40,7 +55,7 @@
     "Technical documentation",
     "Issue resolution",
     "Customer support",
-    "Databases MySQL, PostgreSQL",
+    "MySQL",
     "Content management",
     "Data analysis",
     "Online learning"
@@ -259,9 +274,9 @@
       "technologies": [
         "html5",
         "css3",
-        "sass",
         "angular",
         "bootstrap",
+        "sass",
         "font-awesome"
       ]
     },   
