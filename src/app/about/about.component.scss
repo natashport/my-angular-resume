@@ -1,0 +1,29 @@
+#about {
+    padding: 0px;
+}
+
+.carousel-caption {
+    position: absolute;
+    left: 50px;
+    top: 0px;
+    z-index: 10;
+    color: #fff;
+    text-align: left;
+}
+
+.bold {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+//    color: #f0f0f0;
+    font-weight: 700;
+}
+
+.z-index-1100 {
+    z-index: 1100;
+}
+
+.z-index-1101 {
+    z-index: 1101;
+}

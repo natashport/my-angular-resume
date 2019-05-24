@@ -7,9 +7,12 @@
 <aside id="aside" class="collapse navbar-collapse d-sm-none d-lg-block position-fixed fixed-left float-left bg-light vh-100 animated fadeInLeft text-center">
   <div class="text-center">
     <div>
-      <img src="https://images.unsplash.com/photo-1491947153227-33d59da6c448?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80" alt="My Picture" class="img-thumbnail" />
+      <img src="https://images.unsplash.com/photo-1491947153227-33d59da6c448?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80" alt="My Picture" class="img-fluid mx-auto" />
     </div>
-    <h1 class="mt-4">{{ contactData.firstname }}</h1>      
+    <h1 class="mt-4">
+      {{ contactData.firstname }}<br/>
+      {{ contactData.lastname }}
+    </h1>      
     <div>{{ contactData.experience[0].title }}</div>
     <small>{{ contactData.address.city }}, {{ contactData.address.state }}</small>
     <p><a href="mailto:{{ contactData.email }}">{{ contactData.email }}</a></p>
