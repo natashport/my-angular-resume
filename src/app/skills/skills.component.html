@@ -1,6 +1,10 @@
 <!-- Skills section -->
 <section id="skills" class="container-fluid animated fadeInUp">
   <div *ngIf="skillsData">
+
+      <div class="section-title display-4 text-primary bold text-nowrap">Skills</div>
+      <h1 class="section-subtitle display-4 mt-4">Skills</h1>
+
     <h2>Skills:</h2>
     <div>
       <button class="btn btn-primary text-light btn-md m-1" *ngFor="let skill of skillsData">{{ skill }}</button>

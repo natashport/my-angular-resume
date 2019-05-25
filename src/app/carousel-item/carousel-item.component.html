@@ -1,17 +1,13 @@
-<div class="carousel-item {{ carouselItemIsActive }}">
-  <img src="{{ carouselItemImage }}" class="d-block w-100" alt="">
+<div *ngFor="let carouselItem of carouselItems" class="carousel-item {{ carouselItem.isactive }}">
+  <img src="{{ carouselItem.image }}" class="d-block w-100" alt="">
   <div class="carousel-caption d-md-block">
 
     <div class="text-secondary text-left">
-      <div class="display-4 text-primary bold text-nowrap">{{ carouselItemTitle }}</div>
-      <h1 class="display-4 mt-4">{{ carouselItemSubTitle }}</h1>
-      <p class="lead mb-4">{{ carouselItemText }}</p>
-      
-      <div *ngFor="let icon of carouselItemIcons.technologies">
-          --<i class="fab fa-{{icon}} fa-3x text-primary m-2">--</i>
-      </div>
+      <div class="display-4 text-primary bold text-nowrap">{{ carouselItem.title }}</div>
+      <h1 class="display-4 mt-4">{{ carouselItem.subtitle }}</h1>
+      <p class="lead mb-4">{{ carouselItem.text }}</p>
 
-      <div *ngIf="carouselItemIconsBlock">
+      <div *ngIf="carouselItem.icons">
         <div>
           <i class="fab fa-html5 fa-3x text-primary mr-3"></i>
           <i class="fab fa-css3-alt fa-3x text-primary mr-3"></i>
@@ -26,7 +22,7 @@
         </div>
       </div>
   
-      <div *ngIf="!carouselItemIconsBlock">
+      <div *ngIf="!carouselItem.icons">
         <a href="/N_Shport_Resume.pdf" download class="btn btn-outline-primary bg-light mt-4">
           <i class="fas fa-file-download"></i> Download CV
         </a>

@@ -2,39 +2,14 @@
 <section id="about" class="m-0 p-0 container-fluid animated fadeInUp">
   <div id="my-resume-carousel" class="carousel slide" data-ride="carousel">
     
-    <ul class="carousel-indicators text-primary">
+    <ol class="carousel-indicators">
       <li data-target="#my-resume-carousel" data-slide-to="0" class="active"></li>
       <li data-target="#my-resume-carousel" data-slide-to="1"></li>
-    </ul>
+    </ol>
 
     <div class="carousel-inner">
-      <app-carousel-item
-        carouselItemTitle="Front-End Developer"
-        carouselItemSubTitle="{{ aboutData.name }}"
-        carouselItemText="{{ aboutData.summary }}"
-        carouselItemImage="https://images.unsplash.com/photo-1475608980029-de8304bf6f6e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2500&q=80"
-        carouselItemIsActive="active"
-        carouselItemIconsBlock=""
-        carouselItemIcons="" ></app-carousel-item>
-
-      <app-carousel-item
-        carouselItemTitle="This page"
-        carouselItemSubTitle="made with"
-        carouselItemText="pure Angular templates and Bootstrap UI library"
-        carouselItemImage="https://images.unsplash.com/photo-1495465798138-718f86d1a4bc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2250&q=80"
-        carouselItemIsActive=""
-        carouselItemIconsBlock="true"
-        carouselItemIcons="{{aboutData.projects[0]}}" ></app-carousel-item>
+      <app-carousel-item [carouselItems]=aboutData.carouselitems ></app-carousel-item>
     </div>
-
-    <!-- <a class="carousel-control-prev text-primary" href="#my-resume-carousel" role="button" data-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="sr-only">Previous</span>
-    </a>
-    <a class="carousel-control-next" href="#my-resume-carousel" role="button" data-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="sr-only">Next</span>
-    </a> -->
 
   </div>
 
