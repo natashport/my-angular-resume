@@ -1,10 +1,10 @@
 <div *ngFor="let carouselItem of carouselItems" class="carousel-item {{ carouselItem.isactive }}">
   <img src="{{ carouselItem.image }}" class="d-block w-100" alt="">
   <div class="carousel-caption d-md-block">
-
+    <!-- app-section-title title -->
+    <app-section-title title="{{ carouselItem.title }}" subtitle="{{ carouselItem.subtitle }}"></app-section-title>
+    <hr/>
     <div class="text-secondary text-left">
-      <div class="display-4 text-primary bold text-nowrap">{{ carouselItem.title }}</div>
-      <h1 class="display-4 mt-4">{{ carouselItem.subtitle }}</h1>
       <p class="lead mb-4">{{ carouselItem.text }}</p>
 
       <div *ngIf="carouselItem.icons">

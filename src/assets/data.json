@@ -340,9 +340,9 @@
   ],
   "carouselitems": [
     {
-      "title": "Front-End Developer",
-      "subtitle": "Natalia",
-      "text": "FrontEnd web-developer with a focus on UI/UX, looking for an opportunity in web development, now working on learning JavaScript libraries like Angular and React.", 
+      "title": "I am",
+      "subtitle": "Front-End Developer",
+      "text": "FrontEnd web-developer with a focus on UI/UX, looking for an opportunity in web development.", 
       "image": "https://images.unsplash.com/photo-1475608980029-de8304bf6f6e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2500&q=80",
       "isactive": "active",
       "icons": ""

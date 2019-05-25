@@ -12,6 +12,7 @@ import { AboutComponent } from './about/about.component';
 import { EducationComponent } from './education/education.component';
 import { ContactsComponent } from './contacts/contacts.component';
 import { CarouselItemComponent } from './carousel-item/carousel-item.component';
+import { SectionTitleComponent } from './section-title/section-title.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { CarouselItemComponent } from './carousel-item/carousel-item.component';
     AboutComponent,
     EducationComponent,
     ContactsComponent,
-    CarouselItemComponent
+    CarouselItemComponent,
+    SectionTitleComponent
   ],
   imports: [
     BrowserModule,

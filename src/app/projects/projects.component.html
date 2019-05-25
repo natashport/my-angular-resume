@@ -1,7 +1,7 @@
 <!-- Projects section -->
-<section id="projects" style="min-height: 500px;" class="container-fluid animated fadeInUp">    
+<section id="projects" class="container-fluid animated fadeInUp">    
   <div *ngIf="projectsData">
-    <h2>Projects</h2>
+    <app-section-title title="Projects" subtitle="Projects"></app-section-title>
     <div class="row">
       <div 
         *ngFor="let project of projectsData" 
