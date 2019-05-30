@@ -1,6 +1,8 @@
 $primary: #05bdda;
+$enable-responsive-font-sizes: true;
 
 @import "../node_modules/bootstrap/scss/bootstrap";
+@import "../node_modules/animate";
 
 #main {
   position: relative;
@@ -13,4 +15,48 @@ $primary: #05bdda;
   @include media-breakpoint-down(lg - 10px) { 
     width: 100%; 
   } 
+}
+
+#aside {
+  position: relative;
+  min-height: 400px;
+  height: 100%;
+  overflow-y: scroll;
+  z-index: 1000;
+  @include media-breakpoint-up(lg) { 
+    width: 300px;
+  }
+  @include media-breakpoint-down(md) { 
+      // width: 200px; 
+      img {
+        display: none;
+      }
+      h1 {
+        margin-top: 50px
+      }
+  } 
+}
+
+section {
+  min-height: 300px;
+  @extend .container-fluid;
+  @extend .animated; 
+  @extend .fadeInUp;
+  padding-bottom: 50px;
+}
+
+.card {
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+  box-shadow: 0px 0px 26px -10px rgba(0, 0, 0, 0.17);
+  border-bottom: 3px solid $warning;
+}
+
+.animate-block {
+
+}
+
+hr {
+  height: 1px;
 }

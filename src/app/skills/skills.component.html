@@ -1,9 +1,9 @@
 <!-- Skills section -->
-<section id="skills" class="container-fluid animated fadeInUp">
+<section id="skills">
   <div *ngIf="skillsData">
     <app-section-title title="Skills" subtitle="Tools & Technologies"></app-section-title>
     <div>
-      <button class="btn btn-primary text-light btn-md m-1" *ngFor="let skill of skillsData">{{ skill }}</button>
+      <button class="skill btn btn-primary text-light btn-sm m-1" *ngFor="let skill of skillsData">{{ skill }}</button>
     </div>
   </div>
 </section>

@@ -1,24 +1,21 @@
 <div *ngFor="let carouselItem of carouselItems" class="carousel-item {{ carouselItem.isactive }}">
   <img src="{{ carouselItem.image }}" class="d-block w-100" alt="">
-  <div class="carousel-caption d-md-block">
-    <!-- app-section-title title -->
-    <app-section-title title="{{ carouselItem.title }}" subtitle="{{ carouselItem.subtitle }}"></app-section-title>
+  <div class="carousel-caption">
+    <!-- carousel-item title -->
+    <hr/>
+    <div class="display-4 text-secondary m-0 p-0">{{ carouselItem.title }}</div>
+    <div class="display-4 text-primary text-nowrap m-0 p-0">{{ carouselItem.subtitle }}</div>
     <hr/>
     <div class="text-secondary text-left">
       <p class="lead mb-4">{{ carouselItem.text }}</p>
 
       <div *ngIf="carouselItem.icons">
         <div>
-          <i class="fab fa-html5 fa-3x text-primary mr-3"></i>
-          <i class="fab fa-css3-alt fa-3x text-primary mr-3"></i>
-          <i class="fab fa-sass fa-3x text-primary mr-3"></i>
-          <i class="fab fa-bootstrap fa-3x text-primary mr-3"></i>
-          <i class="fab fa-angular fa-3x text-primary mr-3"></i>
-        </div>
-        <div >
-          <a href="#projects" class="btn btn-outline-primary bg-light mt-4">
-            <i class="fas fa-briefcase"></i> View Portfolio
-          </a>
+          <i class="fab fa-html5 fa-3x text-primary mr-3 bg-light"></i>
+          <i class="fab fa-css3-alt fa-3x text-primary mr-3 bg-light"></i>
+          <i class="fab fa-sass fa-3x text-primary mr-3 bg-light"></i>
+          <i class="fab fa-bootstrap fa-3x text-primary mr-3 bg-light"></i>
+          <i class="fab fa-angular fa-3x text-primary mr-3 bg-light"></i>
         </div>
       </div>
   
@@ -26,7 +23,13 @@
         <a href="/N_Shport_Resume.pdf" download class="btn btn-outline-primary bg-light mt-4">
           <i class="fas fa-file-download"></i> Download CV
         </a>
+        <div >
+            <a href="#projects" class="btn btn-outline-primary bg-light mt-4">
+              <i class="fas fa-briefcase"></i> View Portfolio
+            </a>
+          </div>
       </div>
+      
 
     </div>
 

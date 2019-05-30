@@ -14,18 +14,13 @@
   "profiles": [
     {
       "profilename": "linkedin",
-      "url": "http://",
+      "url": "https://www.linkedin.com/in/natalia-shport/",
       "icon": "fab fa-linkedin"
     },
     {
       "profilename": "github",
-      "url": "http://",
+      "url": "",
       "icon": "fab fa-github"
-    },
-    {
-      "profilename": "linkedin",
-      "url": "http://",
-      "icon": "fab fa-linkedin"
     }
   ],
   "summary": "FrontEnd web-developer with a focus on UI/UX, looking for an opportunity in web development, working on learning modern JavaScript libraries as Angular and React.",
@@ -119,9 +114,10 @@
   ],
   "experience": [
     {
+      "id": "6",
       "title": "Web Developer",
-      "company": "Independent Consulting",
-      "location": "Pleasanton, CA",
+      "company": "Freelance",
+      "location": "",
       "dates": {
         "start": {
           "month": "",
@@ -129,28 +125,61 @@
         },
         "end": {
           "month": "",
-          "year": ""
+          "year": "now"
         }
       },
       "responsibilities": [
-        "Technical support and consulting",
-        "Maintenance, content management",
-        "Gathering requirements from the customer and developing new modules",
-        "Promotion newsletters templates and validation for tsum.ru"
+        "Graphic design / Adobe Photoshop, Adobe Illustrator",
+        "Concept, data structure, content management  / MySQL database",
+        "UI/UX design / PHP templates, HTML, CSS, JavaScript",
+        "Back-end data managing system / PHP, HTML, CSS, JavaScript",
+        "eCommerce marketplace development (orders creation, handling and tracking) / PHP, HTML, CSS, JavaScript",
+        "Technical documentation / Adobe Photoshop, MS Word",
+        "Technical support",
+        "Maintenance"
       ],
       "projects": [
         {
-          "url": "bm-buket.ru"
+          "url": "bm-buket.ru / moscowbuket.ru"
         },
         {
-          "url": "yarnart.ru"
+          "url": "yarnart.ru / yarnart.org"
+        },
+        {
+          "url": "cnts.ru / cnts-net.ru / cnts-ats.ru"
         }
       ]
     },
     {
+      "id": "5",
+      "title": "Remote Web Developer",
+      "company": "ADV/web-engineering co.",
+      "location": "",
+      "dates": {
+        "start": {
+          "month": "",
+          "year": "2015"
+        },
+        "end": {
+          "month": "",
+          "year": "2015"
+        }
+      },
+      "responsibilities": [
+        "Promotion newsletters templates and validation"
+      ],
+      "projects": [
+        {
+          "url": "tsum.ru"
+        }
+      ]
+    },
+    {
+      "id": "4",
       "title": "FrontEnd Team Lead​",
       "company": "ADV/web-engineering co.",
       "location": "Moscow, Russia",
+      "url": "https://advwe.com/",
       "dates": {
         "start": {
           "month": "07",
@@ -177,14 +206,16 @@
           "url": "toyotabc.ru"
         },
         {
-          "url": "colliers.ru"
+          "url": "lexusbc.ru"
         }
       ]
     },
     {
+      "id": "3",
       "title": "FrontEnd Engineer",
       "company": "ADV/web-engineering co.",
       "location": "Moscow, Russia",
+      "url": "https://advwe.com/",
       "dates": {
         "start": {
           "year": "2002"
@@ -201,10 +232,22 @@
         "Content management / SQL, XML, SSH",
         "Technical documentation",
         "QA validation and performance optimization. "
+      ],
+      "projects": [
+        {
+          "url": "city-xxi.ru"
+        },
+        {
+          "url": "colliers.ru"
+        },
+        {
+          "url": "palladium.ru"
+        }
       ]
     },
     {
-      "title": "FrontEnd Engineer",
+      "id": "2",
+      "title": "UI Engineer",
       "company": "Web2000",
       "location": "Moscow, Russia",
       "dates": {
@@ -237,6 +280,7 @@
       ]    
     },
     {
+      "id": "1",
       "title": "CAD Engineer​",
       "company": "TOM KLAIM",
       "location": "Moscow, Russia",
@@ -258,7 +302,7 @@
   "education": {
     "school": "Moscow State University of Design and Technology (MSUDT)",
     "degree": "Master of Engineering",
-    "field of study": "CAD/CADD Drafting and Design Technology",
+    "field": "CAD/CADD Drafting and Design Technology",
     "graduated": "1995"
   },
   "projects": [
@@ -270,7 +314,7 @@
           "year": "2019"
         }
       },
-      "description": "Resume and Portfolio, made with AngularJS templates to show JSON data + Bootstrap library for UI with some customisation HTML3/CSS/SASS",
+      "description": "Resume and Portfolio, made with AngularJS templates, JSON data and Bootstrap UI library with some customization HTML5/CSS3",
       "technologies": [
         "html5",
         "css3",
@@ -340,9 +384,9 @@
   ],
   "carouselitems": [
     {
-      "title": "I am",
-      "subtitle": "Front-End Developer",
-      "text": "FrontEnd web-developer with a focus on UI/UX, looking for an opportunity in web development.", 
+      "title": "Front-End Developer",
+      "subtitle": "with a focus on UI/UX",
+      "text": "looking for an opportunity in web development", 
       "image": "https://images.unsplash.com/photo-1475608980029-de8304bf6f6e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2500&q=80",
       "isactive": "active",
       "icons": ""
