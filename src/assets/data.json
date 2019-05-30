@@ -116,8 +116,8 @@
     {
       "id": "6",
       "title": "Web Developer",
-      "company": "Freelance",
-      "location": "",
+      "company": "Independent Consulting",
+      "location": "Pleasanton, CA",
       "dates": {
         "start": {
           "month": "",
@@ -147,30 +147,6 @@
         },
         {
           "url": "cnts.ru / cnts-net.ru / cnts-ats.ru"
-        }
-      ]
-    },
-    {
-      "id": "5",
-      "title": "Remote Web Developer",
-      "company": "ADV/web-engineering co.",
-      "location": "",
-      "dates": {
-        "start": {
-          "month": "",
-          "year": "2015"
-        },
-        "end": {
-          "month": "",
-          "year": "2015"
-        }
-      },
-      "responsibilities": [
-        "Promotion newsletters templates and validation"
-      ],
-      "projects": [
-        {
-          "url": "tsum.ru"
         }
       ]
     },

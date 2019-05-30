@@ -1,18 +1,20 @@
-
-a:hover {
-    text-decoration: none;
-}
-
-.collapsed {
-    background: red;
-}
-
 .card-header{
-    background-color: #c8cfd3;
     border-bottom: 0px;
-
+//    background-color: var(--primary);
+//    color: var(--primary);
+    &.collapsed {
+//        background-color: var(--bg-light);
+    }
 }
-a::after {
+
+.card-header:hover {
+    background-color: var(--primary);
+    text-decoration: none;
+    color: white;
+}
+
+
+.card-header::after {
     font-family: "Font Awesome 5 Free"; 
     font-weight: 700; 
     font-size: 0.7em;
@@ -21,12 +23,11 @@ a::after {
     top: 1.8em;
     right: 2em;
     z-index: 40;
-    color: white;
-  }
-  a.collapsed::after {
-    content: "\f067";
-  }
+}
 
-.card-header:hover {
-    background-color: var(--primary);
+.collapsed {
+    background-color: white;
+}
+.collapsed::after {
+    content: "\f067";
 }
