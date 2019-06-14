@@ -1,10 +1,10 @@
-<div id="my-resume-menu-toggler" class="d-sm-block d-lg-none position-fixed fixed-top text-right m-4">
-  <a href="#" class="btn btn-primary" data-toggle="collapse" data-target="#aside" aria-expanded="true" aria-controls="aside">
+<div id="my-resume-menu-toggler" class="d-sm-block d-lg-none position-fixed fixed-top text-right m-2">
+  <a href="#" class="btn-service btn mr-3" data-toggle="collapse" data-target="#aside" aria-expanded="true" aria-controls="aside">
     <i class="fas fa-bars fa-1x"></i>
   </a>  
 </div>
 
-<aside id="aside" class="collapse navbar-collapse d-sm-none d-lg-block position-fixed fixed-left float-left bg-light vh-100 animated fadeInLeft text-center pb-4">
+<aside id="aside" class="animated fadeInLeft collapse navbar-collapse d-sm-none d-lg-block position-fixed fixed-left float-left bg-light vh-100 text-center pb-4">
   <div class="text-center">
     <div>
       <img src="https://images.unsplash.com/photo-1522129725604-5def7adf21c4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2500&q=80" alt="My Picture" class="img-fluid mx-auto" />
@@ -19,7 +19,7 @@
     <p>{{ contactData.phone }}</p>
   </div>
 
-  <nav id="my-resume-navigation" role="navigation" class="nav navbar text-center flex-column mt-4 nav-pills">
+  <nav id="my-resume-navigation" role="navigation" class="nav navbar text-center flex-column my-4 nav-pills">
     <a class="nav-link active" href="#about">About</a>
     <a class="nav-link" href="#skills">Skills</a>
     <a class="nav-link" href="#experience">Experience</a>
@@ -27,9 +27,18 @@
     <a class="nav-link" href="#projects">Projects</a>
     <!-- <a class="nav-link" href="#contacts">Contacts</a> -->
   </nav>
-  <div *ngFor="let profile of contactData.profiles">
+  <div *ngFor="let profile of contactData.profiles" class="mb-4">
     <a *ngIf="profile.url" href="{{ profile.url }}" target="_blank">
-      <i class="{{ profile.icon }} fa-lg m-2" ></i>
+      <i class="{{ profile.icon }} fa-2x m-2 btn-service" ></i>
     </a>
+  </div>
+  <div><small>©2019 Natalia Shport</small></div>
+  <div><small>Images: <a href="http://unsplash.com" target="_blank">Unsplash.com</a></small></div>
+  <div class="mb-4">
+    <small>
+      Icons: 
+      <a href="http://icons8.com" target="_blank">icons8.com</a><br/>& 
+      <a href="http://fontawesome.com" target="_blank">fontawesome.com</a>
+    </small>
   </div>
 </aside>

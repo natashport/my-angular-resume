@@ -1,47 +1,47 @@
 <!-- Experience section -->
-<section id="experience">
-  <div *ngIf="experienceData">
-    <app-section-title title="Experience" subtitle="Work Experience"></app-section-title>
-    <div class="row">
-      <div 
-        *ngFor="let position of experienceData" 
-        class="col-sm-12 col-md-6 animated fadeInUp mb-4" data-animate-effect="fadeInTop">
-        <div class="card mb-4">
+<section id="experience" class="section-experience" *ngIf="experienceData">
 
-          <a class="card-header collapsed" data-toggle="collapse" href="#collapse{{position.id}}" role="button" aria-expanded="false">
-            <h3 class="card-title m-0">{{ position.title }}</h3>
-          </a>
+  <app-section-title title="Experience" subtitle="Work Experience"></app-section-title>
 
-          <div class="card-body text-left">
+  <div class="row">
+    <div 
+      *ngFor="let position of experienceData" 
+      class="col-sm-12 col-md-6 mb-4">
 
-            <div class="clearfix">
-              <div class="float-left">
-                <small>
-                  {{ position.company }}
-                  <div>{{ position.location }}</div>
-                </small>
-              </div>
-              <div class="float-right">
-                <span *ngIf="position.dates.start.year">{{position.dates.start.year}}</span>
-                <span *ngIf="position.dates.end.year"> - {{position.dates.end.year}}</span>
-              </div>
+      <div class="card mb-sm-0">
+
+        <a class="card-header collapsed" data-toggle="collapse" href="#collapse{{position.id}}" role="button" aria-expanded="false">
+          <h3 class="card-title m-0">{{ position.title }}</h3>
+        </a><!-- card-header -->
+
+        <div class="card-body text-left">
+          <div class="clearfix">
+            <div class="float-left">
+              <small>
+                {{ position.company }}
+                <div>{{ position.location }}</div>
+              </small>
             </div>
-            
-            <div id="collapse{{position.id}}" class="card-text collapse">
-              <hr/>
-              <ul>
-                <li *ngFor="let responsibility of position.responsibilities" class="text-left">{{ responsibility }}</li>
-              </ul>
-              <div *ngIf="position.projects" class="text-secondary">
-                <h6>Key projects:</h6>
-                <div *ngFor="let keyproject of position.projects">{{ keyproject.url }}</div>
-              </div>
+            <div class="float-right">
+              <span *ngIf="position.dates.start.year">{{position.dates.start.year}}</span>
+              <span *ngIf="position.dates.end.year"> - {{position.dates.end.year}}</span>
             </div>
           </div>
+          <div id="collapse{{position.id}}" class="card-text collapse">
+            <hr/>
+            <ul>
+              <li *ngFor="let responsibility of position.responsibilities" class="text-left">{{ responsibility }}</li>
+            </ul>
+            <div *ngIf="position.projects" class="text-secondary">
+              <h6>Key projects:</h6>
+              <div *ngFor="let keyproject of position.projects">{{ keyproject.url }}</div>
+            </div>
+          </div><!-- card-text -->
+        </div><!-- card-body -->
 
-        </div>
-      </div>
+      </div><!-- card -->
     </div>
-  </div>
+  </div><!-- row -->
+
 </section>
 <!-- //Experience section -->

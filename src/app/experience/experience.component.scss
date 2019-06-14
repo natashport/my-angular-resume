@@ -1,18 +1,9 @@
-.card-header{
+.card-header, .card-header.collapsed:hover{
     border-bottom: 0px;
-//    background-color: var(--primary);
-//    color: var(--primary);
-    &.collapsed {
-//        background-color: var(--bg-light);
-    }
-}
-
-.card-header:hover {
     background-color: var(--primary);
     text-decoration: none;
     color: white;
 }
-
 
 .card-header::after {
     font-family: "Font Awesome 5 Free"; 
@@ -25,9 +16,10 @@
     z-index: 40;
 }
 
-.collapsed {
+.card-header.collapsed {
     background-color: white;
-}
-.collapsed::after {
-    content: "\f067";
+    color: var(--primary);
+    &::after {
+        content: "\f067";
+    }
 }

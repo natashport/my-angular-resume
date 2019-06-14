@@ -1,3 +1,5 @@
+
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,800');
 $primary: #05bdda;
 $bg-light: #f2f3f7;
 $enable-responsive-font-sizes: true;
@@ -5,11 +7,16 @@ $enable-responsive-font-sizes: true;
 @import "../node_modules/bootstrap/scss/bootstrap";
 @import "../node_modules/animate";
 
+body {
+  font-family: Raleway, sans-serif;
+}
+
 #main {
   position: relative;
   height: 100%;
+  min-width: 300px !important;
   overflow-y: scroll;
-  z-index: 999;
+  z-index: 10;
   @include media-breakpoint-up(lg) { 
     width: calc(100% - 300px); 
   }
@@ -28,12 +35,12 @@ $enable-responsive-font-sizes: true;
     width: 300px;
   }
   @include media-breakpoint-down(md) { 
-      img {
-        display: none;
-      }
-      h1 {
-        margin-top: 50px
-      }
+    img {
+      display: none;
+    }
+    h1 {
+      margin-top: 50px
+    }
   } 
 }
 
@@ -41,8 +48,18 @@ section {
   min-height: 300px;
   @extend .container-fluid;
   @extend .animated; 
-  @extend .fadeInUp;
-  margin-bottom: 50px;
+  @extend .fadeInRight;
+  padding: 4em 0 0 0;
+  margin: 4em 0;
+}
+
+.row {
+  margin: 0;
+  padding: 0 0.5em 0 0.5em;
+  > div {
+    margin: 0;
+    padding: 0 0.5em 0 0.5em;
+  }
 }
 
 .card {
@@ -50,9 +67,40 @@ section {
   border-left: 0px;
   border-right: 0px;
   box-shadow: 0px 0px 26px -10px rgba(0, 0, 0, 0.17);
-  border-bottom: 3px solid $warning;
+  border-bottom: 3px solid var(--warning);
+  border-radius: 0px;
+  margin: 0;
 }
 
 hr {
   height: 1px;
 }
+
+.btn {
+  @extend .btn-primary;
+  color:white !important;
+  @extend .btn-sm;
+  &:hover, &:active {
+    @extend .btn-outline-primary;
+    @extend .text-primary;
+    background-color: white;
+    color: var(--primary) !important;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.25), 
+                0 5px 10px rgba(0,0,0,0.20);
+    transform: translateY(-1px);
+    filter: grayscale(10%);
+  }
+  &.btn-service {
+    @extend .btn-primary;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.25), 
+                0 5px 10px rgba(0,0,0,0.20);
+    &:hover, &:active {
+      background-color: white;
+      box-shadow: none;
+    }
+  }
+}
+
+// html.sr section, html.sr #aside {
+//   visibility: hidden;
+// }

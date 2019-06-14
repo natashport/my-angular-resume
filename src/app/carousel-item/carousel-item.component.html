@@ -1,5 +1,4 @@
-<div *ngFor="let carouselItem of carouselItems" class="carousel-item {{ carouselItem.isactive }}">
-  <img src="{{ carouselItem.image }}" class="d-block w-100" alt="">
+<div *ngFor="let carouselItem of carouselItems" class="carousel-item {{ carouselItem.isactive }}" [ngStyle]="{'background-image':' url(' + carouselItem.image + ')'}">
   <div class="carousel-caption">
     <!-- carousel-item title -->
     <hr/>
@@ -11,33 +10,28 @@
 
       <div *ngIf="carouselItem.icons">
         <div>
-          <i class="fab fa-html5 fa-3x text-primary mr-3"></i>
-          <i class="fab fa-css3-alt fa-3x text-primary mr-3"></i>
-          <i class="fab fa-sass fa-3x text-primary mr-3"></i>
-          <i class="fab fa-bootstrap fa-3x text-primary mr-3"></i>
-          <i class="fab fa-angular fa-3x text-primary mr-3"></i>
+          <i class="fab fa-html5 fa-2x text-primary mr-3"></i>
+          <i class="fab fa-css3-alt fa-2x text-primary mr-3"></i>
+          <i class="fab fa-sass fa-2x text-primary mr-3"></i>
+          <i class="fab fa-bootstrap fa-2x text-primary mr-3"></i>
+          <i class="fab fa-angular fa-2x text-primary mr-3"></i>
         </div>
-        <div >
-          <a href="#projects" class="btn btn-outline-primary bg-light mt-4">
+        <div>
+          <a href="#projects" class="btn my-4">
             <i class="fas fa-briefcase fa-lg"></i> View Portfolio
           </a>
         </div>
       </div>
   
       <div *ngIf="!carouselItem.icons">
-        <div>
-        <a href="N_Shport_Resume.pdf" alt="CV in PDF format" download class="btn btn-outline-primary bg-light mt-4">
-          <i class="fas fa-file-pdf fa-lg"></i> Download PDF CV 
+        <a href="/assets/N_Shport_Resume.pdf" alt="CV in PDF format" download class="btn">
+          <i class="fas fa-file-pdf fa-lg"></i> pdf CV 
         </a>
-        </div>
-        <div>
-          <a href="N_Shport_Resume.docx" alt="CV in DOCX format" download class="btn btn-outline-primary bg-light mt-4">
-            <i class="fas fa-file-word fa-lg"></i> Download DOCX CV
-          </a>
-        </div>
+        <a href="/assets/N_Shport_Resume.docx" alt="CV in DOCX format" download class="btn m-4">
+          <i class="fas fa-file-word fa-lg"></i> docx CV
+        </a>
       </div>
       
-
     </div>
 
   </div>

@@ -1,28 +1,44 @@
 <!-- Projects section -->
-<section id="projects">    
-  <div *ngIf="projectsData">
-    <app-section-title title="Projects" subtitle="Projects"></app-section-title>
-    <div class="row">
-      <div 
-        *ngFor="let project of projectsData" 
-        class="col-sm-12 col-md-6 mb-4 animate-box fadeInUp animated" data-animate-effect="fadeInTop">
-        <div class="card h-100">
-          <div class="card-body text-center">
-            <h5 class="card-title">{{ project.projectname }}</h5>
-            <div>
-              <small>
-                <span *ngIf="project.dates.start.year">{{ project.dates.start.year }}</span>
-                <span *ngIf="project.dates.end"> - {{ project.dates.end.year }}</span>
-              </small>
-            </div>
+<section id="projects" *ngIf="projectsData">
+
+  <app-section-title title="Projects" subtitle="Projects done"></app-section-title>
+
+  <div class="row">
+    <div 
+      *ngFor="let project of projectsData; index as i" 
+      class="col-sm-12 col-md-6 mb-4">
+      <div id="project{{i}}" class="project card h-100">
+
+        <div id="project{{i}}-1" class="front card-body text-center">
+          <img src="/assets/{{project.shortname}}.jpeg" class="img-fluid m-0" />
+        </div><!-- card-body --><!-- front -->
+        
+        <div id="project{{i}}-2" class="back card-body text-center bg-light h-100">
+          <h5 class="card-title mb-0">{{ project.projectname }}</h5>
+          <div>
+            <small class="text-secondary">
+              <span *ngIf="project.dates.start.year">{{ project.dates.start.year }}</span>
+              <span *ngIf="project.dates.end"> - {{ project.dates.end.year }}</span>
+            </small>
+          </div>
+          <div>
             <p class="card-text">{{ project.description }}</p>
             <span *ngFor="let technology of project.technologies">
-              <i class="fab fa-{{ technology }} fa-2x text-primary m-2"></i>
+              <img src="/assets/icons/icon-{{technology}}.png" alt="{{technology}}" class="icon text-primary m-2" />
             </span>
           </div>
-        </div>
-      </div>
-    </div>
-  </div>
+          <div class="p-4 w-100">
+            <span class="p-2" *ngIf="project.code">
+              <a href="{{project.code}}" class="btn" target="_blank">Code</a>
+            </span>
+            <span class="p-2" *ngIf="project.demo">
+              <a href="{{project.demo}}" class="btn" target="_blank">Demo</a>
+            </span>
+          </div>
+        </div><!-- card-body --><!-- back -->
+      </div><!-- project --><!-- card -->
+    </div><!-- col -->
+  </div><!-- row -->
+
 </section>
 <!-- //Projects section -->

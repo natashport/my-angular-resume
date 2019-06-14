@@ -1,10 +1,11 @@
 <!-- Skills section -->
-<section id="skills">
-  <div *ngIf="skillsData">
-    <app-section-title title="Skills" subtitle="Tools & Technologies"></app-section-title>
-    <div>
-      <button class="skill btn btn-primary text-light btn-sm m-1" *ngFor="let skill of skillsData">{{ skill }}</button>
-    </div>
+<section id="skills" class="section-skills" *ngIf="skillsData">
+
+  <app-section-title title="Skills" subtitle="Tools & Technologies"></app-section-title>
+  
+  <div class="text-center skills">
+    <a class="btn m-1" *ngFor="let skill of skillsData">{{ skill }}</a>
   </div>
+
 </section>
 <!-- //Skills section -->
