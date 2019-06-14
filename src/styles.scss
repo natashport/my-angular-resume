@@ -47,8 +47,8 @@ body {
 section {
   min-height: 300px;
   @extend .container-fluid;
-  @extend .animated; 
-  @extend .fadeInRight;
+//  @extend .animated; 
+//  @extend .fadeInRight;
   padding: 4em 0 0 0;
   margin: 4em 0;
 }
@@ -101,6 +101,6 @@ hr {
   }
 }
 
-// html.sr section, html.sr #aside {
-//   visibility: hidden;
-// }
+.scrollanimated {
+  opacity: 0;
+}

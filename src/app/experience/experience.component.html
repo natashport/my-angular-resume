@@ -1,12 +1,12 @@
-<!-- Experience section -->
-<section id="experience" class="section-experience" *ngIf="experienceData">
+
+<section id="experience" class="animated scrollanimated" *ngIf="experienceData">
 
   <app-section-title title="Experience" subtitle="Work Experience"></app-section-title>
 
   <div class="row">
     <div 
       *ngFor="let position of experienceData" 
-      class="col-sm-12 col-md-6 mb-4">
+      class="col-sm-12 col-md-6 mb-4 animated scrollanimated showfromleft">
 
       <div class="card mb-sm-0">
 

@@ -1,12 +1,9 @@
-<!-- Projects section -->
-<section id="projects" *ngIf="projectsData">
-
+<section id="projects" *ngIf="projectsData" class="animated scrollanimated">
   <app-section-title title="Projects" subtitle="Projects done"></app-section-title>
-
   <div class="row">
     <div 
       *ngFor="let project of projectsData; index as i" 
-      class="col-sm-12 col-md-6 mb-4">
+      class="col-sm-12 col-md-6 mb-4 animated scrollanimated showfromleft">
       <div id="project{{i}}" class="project card h-100">
 
         <div id="project{{i}}-1" class="front card-body text-center">
@@ -14,7 +11,7 @@
         </div><!-- card-body --><!-- front -->
         
         <div id="project{{i}}-2" class="back card-body text-center bg-light h-100">
-          <h5 class="card-title mb-0">{{ project.projectname }}</h5>
+          <h4 class="card-title mb-0 text-warning display-6">{{ project.projectname }}</h4>
           <div>
             <small class="text-secondary">
               <span *ngIf="project.dates.start.year">{{ project.dates.start.year }}</span>
@@ -40,5 +37,4 @@
     </div><!-- col -->
   </div><!-- row -->
 
-</section>
-<!-- //Projects section -->
+</section><!-- //Projects section -->
