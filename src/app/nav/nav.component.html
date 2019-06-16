@@ -4,19 +4,17 @@
   </a>  
 </div>
 
-<aside id="aside" class="animated fadeInLeft collapse navbar-collapse d-sm-none d-lg-block position-fixed fixed-left float-left bg-light vh-100 text-center pb-4">
-  <div class="text-center">
+<aside id="aside" class="animated fadeInLeft collapse navbar-collapse d-sm-none d-lg-block position-fixed fixed-left float-left bg-light vh-100 text-center">
+  <div id="my-resume-title" class="text-center">
     <div>
-      <img src="https://images.unsplash.com/photo-1522129725604-5def7adf21c4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2500&q=80" alt="My Picture" class="img-fluid mx-auto" />
+      <h1 class="px-2 my-4">
+        {{ contactData.firstname }}<br/><span class="text-warning">{{ contactData.lastname }}</span>
+      </h1>      
+      <div>{{ contactData.experience[0].title }}</div>
+      <small>{{ contactData.address.city }}, {{ contactData.address.state }}</small>
+      <p class="mx-2"><a href="mailto:{{ contactData.email }}">{{ contactData.email }}</a></p>
+      <p>{{ contactData.phone }}</p>
     </div>
-    <h1 class="px-2">
-      {{ contactData.firstname }}
-      <div class="text-warning">{{ contactData.lastname }}</div>
-    </h1>      
-    <div>{{ contactData.experience[0].title }}</div>
-    <small>{{ contactData.address.city }}, {{ contactData.address.state }}</small>
-    <p class="mx-2"><a href="mailto:{{ contactData.email }}">{{ contactData.email }}</a></p>
-    <p>{{ contactData.phone }}</p>
   </div>
 
   <nav id="my-resume-navigation" role="navigation" class="nav navbar text-center flex-column my-4 nav-pills">

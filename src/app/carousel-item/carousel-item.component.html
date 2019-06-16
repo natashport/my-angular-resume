@@ -1,11 +1,11 @@
 <div *ngFor="let carouselItem of carouselItems" class="carousel-item {{ carouselItem.isactive }}" [ngStyle]="{'background-image':' url(' + carouselItem.image + ')'}">
-  <div class="carousel-caption">
+  <div class="carousel-caption text-left align-middle text-secondary">
     <!-- carousel-item title -->
     <hr/>
-    <div class="display-4 text-secondary m-0 p-0">{{ carouselItem.title }}</div>
-    <div class="display-4 text-primary text-nowrap m-0 p-0">{{ carouselItem.subtitle }}</div>
+    <div class="carousel-title m-0 p-0">{{ carouselItem.title }}</div>
+    <div class="carousel-subtitle m-0 p-0">{{ carouselItem.subtitle }}</div>
     <hr/>
-    <div class="text-secondary text-left">
+    <div class="text-secondary">
       <p class="lead mb-4">{{ carouselItem.text }}</p>
 
       <div *ngIf="carouselItem.icons">
@@ -16,14 +16,15 @@
           <i class="fab fa-bootstrap fa-2x text-primary mr-3"></i>
           <i class="fab fa-angular fa-2x text-primary mr-3"></i>
         </div>
+        <hr/>
         <div>
           <a href="#projects" class="btn my-4">
             <i class="fas fa-briefcase fa-lg"></i> View Portfolio
           </a>
         </div>
       </div>
-  
       <div *ngIf="!carouselItem.icons">
+        <hr/>
         <a href="/assets/N_Shport_Resume.pdf" alt="CV in PDF format" download class="btn">
           <i class="fas fa-file-pdf fa-lg"></i> pdf CV 
         </a>

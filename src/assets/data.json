@@ -2,6 +2,7 @@
   "name": "Natalia Shport",
   "firstname": "Natalia",
   "lastname": "Shport",
+  "title": "UI / FrontEnd Developer",
   "email": "shport.natalia@gmail.com",
   "address": {
     "street": "3218 W Las Positas Blvd",
@@ -23,7 +24,7 @@
       "icon": "fab fa-github"
     }
   ],
-  "summary": "FrontEnd web-developer with a focus on UI/UX, looking for an opportunity in web development, working on learning modern JavaScript libraries as Angular and React.",
+  "summary": "",
   "skills": [
     "HTML/HTML5", 
     "CSS/CSS3",
@@ -113,40 +114,6 @@
     }
   ],
   "experience": [
-    {
-      "id": "6",
-      "title": "Web Developer",
-      "company": "Independent Consulting",
-      "location": "Pleasanton, CA",
-      "dates": {
-        "start": {
-          "month": "",
-          "year": "2009"
-        },
-        "end": {
-          "month": "",
-          "year": "now"
-        }
-      },
-      "responsibilities": [
-        "Graphic design / Adobe Photoshop, Adobe Illustrator",
-        "Concept, data structure, content management  / MySQL database",
-        "UI/UX design / PHP templates, HTML, CSS, JavaScript",
-        "Back-end data managing system / PHP, HTML, CSS, JavaScript",
-        "eCommerce marketplace development (orders creation, handling and tracking) / PHP, HTML, CSS, JavaScript",
-        "Technical documentation / Adobe Photoshop, MS Word",
-        "Technical support",
-        "Maintenance"
-      ],
-      "projects": [
-        {
-          "url": "bm-buket.ru / moscowbuket.ru"
-        },
-        {
-          "url": "yarnart.ru / yarnart.org"
-        }
-      ]
-    },
     {
       "id": "4",
       "title": "FrontEnd Team Lead​",
@@ -373,8 +340,8 @@
   ],
   "carouselitems": [
     {
-      "title": "Front-End Developer",
-      "subtitle": "with a focus on UI/UX",
+      "title": "Front-End / UI",
+      "subtitle": "Developer",
       "text": "looking for an opportunity in web development", 
       "image": "/assets/slide-1.jpeg",
       "isactive": "active",

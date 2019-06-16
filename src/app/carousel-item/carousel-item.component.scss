@@ -1,14 +1,23 @@
 .carousel-item {
     height: 100vh;
-    max-height: 600px;
+    //max-height: 600px;
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: top right;
+    background-position: bottom right;
 }
 
 .carousel-caption {
-    left: 5%;
-    top: 5px;
+    left: 10%;
+    top: 10%;
     z-index: 10;
     text-align: left;
+}
+
+.carousel-title {
+    font-size: 2.5em;
+    line-height: 1em;
+}
+
+.carousel-subtitle {
+    font-size: 2.5em;
 }
