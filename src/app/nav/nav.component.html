@@ -10,7 +10,7 @@
       <h1 class="px-2 my-4">
         {{ contactData.firstname }}<br/><span class="text-warning">{{ contactData.lastname }}</span>
       </h1>      
-      <div>{{ contactData.experience[0].title }}</div>
+      <div>{{ contactData.title }}</div>
       <small>{{ contactData.address.city }}, {{ contactData.address.state }}</small>
       <p class="mx-2"><a href="mailto:{{ contactData.email }}">{{ contactData.email }}</a></p>
       <p>{{ contactData.phone }}</p>
@@ -23,11 +23,10 @@
     <a class="nav-link" href="#experience">Experience</a>
     <a class="nav-link" href="#education">Education</a>
     <a class="nav-link" href="#projects">Projects</a>
-    <!-- <a class="nav-link" href="#contacts">Contacts</a> -->
   </nav>
   <div *ngFor="let profile of contactData.profiles" class="mb-4">
     <a *ngIf="profile.url" href="{{ profile.url }}" target="_blank">
-      <i class="{{ profile.icon }} fa-2x m-2 btn-service" ></i>
+      <i class="{{ profile.icon }} fa-2x m-2" ></i>
     </a>
   </div>
   <div><small>©2019 Natalia Shport</small></div>
