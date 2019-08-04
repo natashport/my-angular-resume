@@ -1,8 +1,81 @@
+@mixin flex-center($align) {
+    display: flex;
+    justify-content: center;
+    align-items: $align;
+}
+
 #about {
     margin: 0;
     padding: 0;
+}
+#about-container {
+    display: flex;
+    
+    #my-resume-carousel, 
+    #about-introduction {
+        flex: 0 1 auto;
+        width: 50%;
+    }
+    #about-introduction {
+        @include flex-center(center);
+        flex-direction: column;
+        position: relative;
+
+        #about-introduction-top, 
+        #about-introduction-bottom {
+            @include flex-center(center);
+            flex-direction: column;
+            padding: 1rem;
+        }
+        #about-introduction-top {
+            flex: 2;
+            padding: 3rem;
+        }
+        #about-introduction-bottom {
+            background: var(--my-mid-gray);
+            @include flex-center(center);
+            flex: 1;
+        }
+        #about-links {
+           padding: 1rem 1rem;
+            width: 100%;
+            text-align: center;
+            a {
+                padding: 1em;
+                margin: 1em;
+            }
+        }
+    }
+}
+.intro-text {
+    font-size: 1.5em;;
+    line-height: 1.8;
+    font-weight: 500;
+    color: #999999;
 
 }
+.intro-subheading {
+    font-size: 24px;
+    color: #bfbfbf;
+    font-weight: 400;
+}
+.intro-back {
+    position: absolute;
+    top: 40px;
+    left: 0;
+    right: 0;
+    color: #ededed;
+    z-index: -1;
+    font-size: 70px;
+    line-height: 1;
+}
+h1 {
+    letter-spacing: 1px;
+    font-weight: 700;
+    line-height: 1.5;
+    color: #999999;
+}
+
 .carousel-indicators li {
     width: 1rem;
     height: 1rem;
@@ -11,6 +84,6 @@
 }
 #summary {
     margin-top: 0;
-    background-color: var(--bg-gray);
+    background-color: var(--bg-light);
     padding-bottom: 4em;
 }
