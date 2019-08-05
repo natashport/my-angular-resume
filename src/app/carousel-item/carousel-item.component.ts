@@ -8,6 +8,8 @@ import { Component, OnInit, Input } from '@angular/core';
 })
 export class CarouselItemComponent implements OnInit {
 
+  @Input() public carouselItems;
+
   constructor() { }
 
   ngOnInit() {
