@@ -80,7 +80,6 @@ hr {
   border-radius: 0;
   border: 0px;
   &:hover, &:active {
-    //background-color: var(--warning);
     box-shadow: 0 5px 10px rgba(0,0,0,0.25), 
                 0 5px 10px rgba(0,0,0,0.20);
     transform: translateY(-1px);

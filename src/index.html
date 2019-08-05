@@ -32,11 +32,7 @@
       $(window).scroll(function() {
         $('.animated.scrollanimated').each(function() {
           if (isScrolledIntoView(this) === true) {
-            if ($(this).hasClass('showfromleft')) {
-              $(this).addClass('fadeInLeft');
-            } else {
-              $(this).addClass('fadeInRight');
-            }
+            $(this).addClass('fadeInUp');
           } 
         });
       });

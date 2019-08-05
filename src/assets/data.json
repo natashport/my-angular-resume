@@ -34,7 +34,7 @@
     "JSON",
     "jQuery",
     "Bootstrap",
-    "AngularJS",
+    "Angular",
     "ReactJS",
     "API",
     "LAMP/PHP",
@@ -255,7 +255,7 @@
           "year": "2019"
         }
       },
-      "description": "Resume and Portfolio, made with AngularJS templates, JSON data and Bootstrap UI library with some customization HTML5/CSS3",
+      "description": "Resume and Portfolio, made with Angular 7 templates, JSON data and Bootstrap UI library with some customization HTML5/CSS3",
       "technologies": [
         "html5",
         "css3",
@@ -342,7 +342,7 @@
     {
       "title": "UI / Front-End",
       "subtitle": "Developer",
-      "text": "Seeking an entry level position within the Bay Area. Interested in a job related to React or Angular frameworks.", 
+      "text": "Seeking an UI / Front-End position within the San Francisco Bay Area. Interested in a job related to React or Angular frameworks.", 
       "image": "/assets/slide-1.jpeg",
       "isactive": "active",
       "icons": ""
@@ -350,7 +350,7 @@
     {
       "title": "This page",
       "subtitle": "made with",
-      "text": "pure Angular templates and Bootstrap UI library",
+      "text": "pure Angular 7 templates and Bootstrap UI library",
       "image": "/assets/slide-2.jpeg",
       "isactive": "",
       "icons": "true"
