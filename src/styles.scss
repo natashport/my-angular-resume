@@ -1,19 +1,19 @@
-
-@import url('https://fonts.googleapis.com/css?family=Roboto:400,700');
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,700");
 $primary: #05bdda;
 $bg-light: #f2f3f7;
 $enable-responsive-font-sizes: true;
 @import "../node_modules/bootstrap/scss/bootstrap";
 @import "../node_modules/animate";
 
-
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 1em;
   line-height: 1.8;
   width: 100%;
-  --bg-gray:  #ededee;
+  --bg-gray: #ededee;
+  max-width: 2000px;
+  margin: 0 auto;
 }
 
 #main {
@@ -22,12 +22,12 @@ body {
   min-width: 300px !important;
   overflow-y: scroll;
   z-index: 10;
-  @include media-breakpoint-up(lg) { 
-    width: calc(100% - 300px); 
+  @include media-breakpoint-up(lg) {
+    width: calc(100% - 300px);
   }
-  @include media-breakpoint-down(lg - 10px) { 
-    width: 100%; 
-  } 
+  @include media-breakpoint-down(lg - 10px) {
+    width: 100%;
+  }
 }
 
 #aside {
@@ -36,14 +36,15 @@ body {
   height: 100%;
   overflow-y: scroll;
   z-index: 1000;
-  @include media-breakpoint-up(lg) { 
+  @include media-breakpoint-up(lg) {
     width: 300px;
   }
-  @include media-breakpoint-down(md) { 
+  @include media-breakpoint-down(md) {
   }
 }
 
-section, .section {
+section,
+.section {
   min-height: 300px;
   @extend .container-fluid;
   padding: 4em 0 0 0;
@@ -75,21 +76,21 @@ hr {
 
 .btn {
   @extend .btn-primary;
-  color:white !important;
+  color: white !important;
   @extend .btn-sm;
   border-radius: 0;
   border: 0px;
-  &:hover, &:active {
-    box-shadow: 0 5px 10px rgba(0,0,0,0.25), 
-                0 5px 10px rgba(0,0,0,0.20);
+  &:hover,
+  &:active {
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.25), 0 5px 10px rgba(0, 0, 0, 0.2);
     transform: translateY(-1px);
     filter: grayscale(10%);
   }
   &.btn-service {
     @extend .btn-primary;
-    box-shadow: 0 5px 10px rgba(0,0,0,0.25), 
-                0 5px 10px rgba(0,0,0,0.20);
-    &:hover, &:active {
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.25), 0 5px 10px rgba(0, 0, 0, 0.2);
+    &:hover,
+    &:active {
       box-shadow: none;
     }
   }
@@ -98,4 +99,3 @@ hr {
 .scrollanimated {
   opacity: 0;
 }
-

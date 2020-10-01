@@ -1,20 +1,48 @@
 <section id="about">
-  <div id="my-resume-carousel" class="carousel slide carousel-fade animated fadeInRight" data-ride="carousel">
+  <div
+    id="my-resume-carousel"
+    class="carousel slide carousel-fade animated fadeInRight"
+    data-ride="carousel"
+  >
     <ol class="carousel-indicators">
-      <li data-target="#my-resume-carousel" data-slide-to="0" class="active"></li>
+      <li
+        data-target="#my-resume-carousel"
+        data-slide-to="0"
+        class="active"
+      ></li>
       <li data-target="#my-resume-carousel" data-slide-to="1"></li>
     </ol>
     <div class="carousel-inner">
-      <app-carousel-item [carouselItems]=aboutData.carouselitems ></app-carousel-item>
+      <app-carousel-item
+        [carouselItems]="aboutData.carouselitems"
+      ></app-carousel-item>
     </div>
-  </div><!-- carousel -->
+  </div>
+  <!-- carousel -->
   <div id="summary" class="section container-fluid animated fadeInUp">
     <app-section-title title="About" subtitle="About me"></app-section-title>
     <div class="lead px-4">
       <p>My name is Natalia. I am a Web Developer.</p>
-      <p>For 7 years I worked in a web-design studio, growing from editing pictures in Photoshop and updating databases to templating web-projects with XML/XSLT framework, leading projects, interviewing and coaching new team members.</p>
-      <p>Then I got a 10 years gap in my career. Now I started ower.</p>
-      <p>I am learning modern JavaScript frameworks - Angular and React, improving knowledges in developing responsive layouts for all desktop and mobile devices, discovering ways of using API, working with version control tools.</p>
+      <p>
+        I have 8 years of professional experience in the past developing
+        e-commerce apps or representational catalogues with a framework based on
+        XML/XSL templating.
+      </p>
+      <p>After a long break, I am starting my career over.</p>
+      <!-- <p>
+        For 7 years I worked in a web-design studio, growing from editing
+        pictures in Photoshop and updating databases to templating web-projects
+        with XML/XSLT framework, leading projects, interviewing and coaching new
+        team members.
+      </p>
+      <p>Then I got a 10 years gap in my career. Now I started ower.</p> -->
+      <p>
+        For the last two years, I have been exploring the modern world of
+        JavaScript with attention to React, improving knowledge in responsive
+        layouts for desktop and mobile, discovering APIs, working with version
+        control tools.
+      </p>
     </div>
   </div>
-</section><!-- //About section -->
+</section>
+<!-- //About section -->

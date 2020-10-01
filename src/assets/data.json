@@ -26,34 +26,35 @@
   ],
   "summary": "",
   "skills": [
-    "HTML/HTML5", 
+    "UI/UX",
+    "HTML/HTML5",
     "CSS/CSS3",
     "SASS",
-    "XML/XSLT", 
-    "Javascript/ES6",
+    "XML/XSLT",
+    "Javascript/ES6/JSX",
     "JSON",
     "jQuery",
     "Bootstrap",
     "Angular",
-    "ReactJS",
+    "React",
+    "Redux",
     "API",
     "LAMP/PHP",
     "UNIX/LINUX",
     "GIT/GitHub",
     "NPM/YARN",
-    "UI/UX",
+    "MySQL",
+    "PostgresQL",
+    "NoSQL",
     "Responsive Web Design",
     "Adobe packages",
     "Graphic optimization",
-    "Teamwork",
     "Timeline management",
     "Task prioritizing",
     "Technical documentation",
     "Issue resolution",
     "Customer support",
-    "MySQL",
     "Content management",
-    "Data analysis",
     "Online learning"
   ],
   "technologies": [
@@ -70,47 +71,47 @@
     {
       "name": "JavaScript",
       "code": "js",
-      "icon": "fab fa-js"      
+      "icon": "fab fa-js"
     },
     {
       "name": "PHP",
       "code": "php",
-      "icon": "fab fa-php"      
+      "icon": "fab fa-php"
     },
     {
       "name": "MySQL",
       "code": "database",
-      "icon": "fas fa-database"      
+      "icon": "fas fa-database"
     },
     {
       "name": "HTML5",
       "code": "html5",
-      "icon": "fab fa-html5"      
+      "icon": "fab fa-html5"
     },
     {
       "name": "CSS3",
       "code": "css3",
-      "icon": "fab fa-css3"      
+      "icon": "fab fa-css3"
     },
     {
       "name": "AngularJS",
       "code": "angular",
-      "icon": "fab fa-angular"      
+      "icon": "fab fa-angular"
     },
     {
       "name": "Bootstrap",
       "code": "bootstrap",
-      "icon": "fab fa-bootstrap"      
+      "icon": "fab fa-bootstrap"
     },
     {
       "name": "JSON",
       "code": "json",
-      "icon": "fab fa-json"      
+      "icon": "fab fa-json"
     },
     {
       "name": "Font Awesome",
       "code": "font-awesome",
-      "icon": "fab fa-font-awesome"      
+      "icon": "fab fa-font-awesome"
     }
   ],
   "experience": [
@@ -217,7 +218,7 @@
         {
           "url": "dostavkalinz.ru"
         }
-      ]    
+      ]
     },
     {
       "id": "1",
@@ -246,7 +247,7 @@
     "graduated": "1995"
   },
   "projects": [
-    { 
+    {
       "projectname": "shport.info",
       "shortname": "info",
       "url": "http://shport.info",
@@ -267,8 +268,8 @@
       ],
       "code": "https://github.com/natashport/my-angular-resume/",
       "demo": "https://shport.info/"
-    },   
-    { 
+    },
+    {
       "projectname": "yarnart.ru",
       "shortname": "yarnart",
       "url": "http://yarnart.ru",
@@ -281,13 +282,7 @@
         }
       },
       "description": "Knitters and crocheters community, yarn/projects database and marketplace - UI design, eCommerce marketplace development (orders creation, handling and tracking), forum/community and photo gallery maintenance, end-user support",
-      "technologies": [
-        "html",
-        "css",
-        "js", 
-        "php",
-        "mysql"
-      ],
+      "technologies": ["html", "css", "js", "php", "mysql"],
       "code": "",
       "demo": "https://web.archive.org/web/20161008153817/http://yarnart.org/"
     },
@@ -298,19 +293,13 @@
       "dates": {
         "start": {
           "year": "2003"
-          },
+        },
         "end": {
           "year": "2017"
         }
       },
       "description": "Online store for the flower designer - The concept, UI/UX, DB data structure and content management system, marketplace functionality, full-stack engineering",
-      "technologies": [
-        "html",
-        "css",
-        "js", 
-        "php",
-        "mysql"
-      ],
+      "technologies": ["html", "css", "js", "php", "mysql"],
       "code": "",
       "demo": "https://web.archive.org/web/20120401165639/http://bm-buket.ru:80/"
     },
@@ -321,19 +310,13 @@
       "dates": {
         "start": {
           "year": "2001"
-          },
+        },
         "end": {
           "year": "2003"
         }
       },
       "description": "Catalogue of communication systems and services - UI design, concept, DB data structure, content management system, full-stack engineering and project delivery",
-      "technologies": [
-        "html",
-        "css",
-        "js", 
-        "php",
-        "mysql"
-      ],
+      "technologies": ["html", "css", "js", "php", "mysql"],
       "code": "",
       "demo": "https://web.archive.org/web/20031130195508/http://www.cnts.ru/"
     }
@@ -342,7 +325,7 @@
     {
       "title": "UI / Front-End",
       "subtitle": "Developer",
-      "text": "Seeking an UI / Front-End position within the San Francisco Bay Area. Interested in a job related to React or Angular frameworks.", 
+      "text": "UI Engineer/ Frontend Developer, looking for a position related to React within the San Francisco Bay Area.",
       "image": "/assets/slide-1.jpeg",
       "isactive": "active",
       "icons": ""
@@ -350,7 +333,7 @@
     {
       "title": "This page",
       "subtitle": "made with",
-      "text": "pure Angular 7 templates and Bootstrap UI library",
+      "text": "Angular 7 templates and Bootstrap UI library",
       "image": "/assets/slide-2.jpeg",
       "isactive": "",
       "icons": "true"
