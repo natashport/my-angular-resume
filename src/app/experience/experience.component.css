@@ -1,0 +1,27 @@
+.card-header, .card-header.collapsed:hover {
+  border-bottom: 0px;
+  background-color: var(--primary);
+  text-decoration: none;
+  color: white;
+}
+
+.card-header::after {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 700;
+  font-size: 0.7em;
+  content: "\f068";
+  position: absolute;
+  top: 1.8em;
+  right: 2em;
+  z-index: 40;
+}
+
+.card-header.collapsed {
+  background-color: white;
+  color: var(--primary);
+}
+
+.card-header.collapsed::after {
+  content: "\f067";
+}
+/*# sourceMappingURL=experience.component.css.map */

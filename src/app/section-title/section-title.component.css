@@ -1,0 +1,22 @@
+.section-title {
+  position: relative;
+  font-weight: 700;
+  opacity: 0.1;
+  z-index: 20;
+  padding: 0;
+  margin: 0;
+  font-size: 5em;
+  line-height: 1em;
+}
+
+.section-subtitle {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  margin-top: 2.5em;
+  margin-left: 1em;
+  z-index: 30;
+  font-weight: 700;
+  opacity: 0.5;
+}
+/*# sourceMappingURL=section-title.component.css.map */

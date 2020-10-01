@@ -1,14 +1,15 @@
-<div id="my-resume-container" class="clearfix container-fluid overflow-hidden p-0">
-   
-  <app-nav [contactData]=myData></app-nav>
+<div
+  id="my-resume-container"
+  class="clearfix container-fluid overflow-hidden p-0"
+>
+  <app-nav [contactData]="myData"></app-nav>
 
   <main id="main" class="float-right">
-    <app-about [aboutData]=myData></app-about>
-    <app-skills [skillsData]=myData.skills></app-skills>
-    <app-experience [experienceData]=myData.experience></app-experience>
-    <app-education [educationData]=myData.education></app-education>
-    <app-projects [projectsData]=myData.projects></app-projects>
-    <app-contacts [myData]=myData></app-contacts>
+    <app-about [aboutData]="myData"></app-about>
+    <app-skills [skillsData]="myData.skills"></app-skills>
+    <app-experience [experienceData]="myData.experience"></app-experience>
+    <app-education [educationData]="myData.education"></app-education>
+    <app-projects [projectsData]="myData.projects"></app-projects>
+    <app-contacts [myData]="myData"></app-contacts>
   </main>
-
 </div>

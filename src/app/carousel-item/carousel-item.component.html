@@ -1,11 +1,14 @@
-<div *ngFor="let carouselItem of carouselItems" class="carousel-item {{ carouselItem.isactive }}" [ngStyle]="{'background-image':' url(' + carouselItem.image + ')'}">
+<div
+  *ngFor="let carouselItem of carouselItems"
+  class="carousel-item {{ carouselItem.isactive }}"
+  [ngStyle]="{ 'background-image': ' url(' + carouselItem.image + ')' }"
+>
   <div class="carousel-caption text-left text-secondary">
     <!-- carousel-item title -->
-    
-    <div class="carousel-title m-0 p-0">{{ carouselItem.title }}</div>
-    <div class="carousel-subtitle m-0 p-0">{{ carouselItem.subtitle }}</div>
-    
+
     <div class="carousel-text text-secondary lead p-4">
+      <div class="carousel-title m-0 p-0">{{ carouselItem.title }}</div>
+      <div class="carousel-subtitle m-0 p-0">{{ carouselItem.subtitle }}</div>
       {{ carouselItem.text }}
       <div *ngIf="carouselItem.icons" class="pt-4">
         <i class="fab fa-html5 fa-2x text-primary mr-3"></i>
@@ -16,23 +19,31 @@
       </div>
     </div>
 
-      <div>
-        <div *ngIf="carouselItem.icons">
-          <a href="#projects" class="btn my-4">
-            <i class="fas fa-briefcase fa-lg"></i> View Portfolio
-          </a>
-        </div>
-      </div>
-
-      <div *ngIf="!carouselItem.icons">
-        <a href="/assets/N_Shport_Resume.pdf" alt="CV in PDF format" download class="btn mt-4 mr-4">
-          <i class="fas fa-file-pdf fa-lg"></i> Download pdf CV 
-        </a><br/>
-        <a href="/assets/N_Shport_Resume.docx" alt="CV in DOCX format" download class="btn mt-4 mr-4">
-          <i class="fas fa-file-word fa-lg"></i> Download docx CV
+    <div>
+      <div *ngIf="carouselItem.icons">
+        <a href="#projects" class="btn my-4">
+          <i class="fas fa-briefcase fa-lg"></i> View Portfolio
         </a>
       </div>
-      
+    </div>
 
+    <div *ngIf="!carouselItem.icons">
+      <a
+        href="/assets/Natalia-Shport-Resume-2020.pdf"
+        alt="CV in PDF format"
+        download
+        class="btn mt-4 mr-4"
+      >
+        <i class="fas fa-file-pdf fa-lg"></i> Download pdf CV </a
+      ><br />
+      <a
+        href="/assets/Natalia-Shport-Resume-2020.docx"
+        alt="CV in DOCX format"
+        download
+        class="btn mt-4 mr-4"
+      >
+        <i class="fas fa-file-word fa-lg"></i> Download docx CV
+      </a>
+    </div>
   </div>
 </div>
