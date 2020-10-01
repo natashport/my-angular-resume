@@ -1,40 +1,66 @@
 <section id="about">
   <div id="about-container">
-    <div id="my-resume-carousel" class="carousel-fade animated fadeInRight" data-ride="carousel">
+    <div
+      id="my-resume-carousel"
+      class="carousel-fade animated fadeInRight"
+      data-ride="carousel"
+    >
       <ol class="carousel-indicators">
-        <li data-target="#my-resume-carousel" data-slide-to="0" class="active"></li>
+        <li
+          data-target="#my-resume-carousel"
+          data-slide-to="0"
+          class="active"
+        ></li>
         <li data-target="#my-resume-carousel" data-slide-to="1"></li>
         <li data-target="#my-resume-carousel" data-slide-to="2"></li>
         <li data-target="#my-resume-carousel" data-slide-to="3"></li>
       </ol>
       <div class="carousel-inner">
-        <app-carousel-item [carouselItems]=aboutData.carouselitems ></app-carousel-item>
+        <app-carousel-item
+          [carouselItems]="aboutData.carouselitems"
+        ></app-carousel-item>
       </div>
-    </div><!-- carousel -->
+    </div>
+    <!-- carousel -->
 
     <div id="about-introduction">
       <div id="about-introduction-top">
         <!-- <div class="intro-subheading">Hello!</div> -->
         <div class="intro-back">Hello! I am</div>
-        <h1>Natalia <span class="beige">a UI/Front-End Developer</span></h1>
+        <h1>Natalia <span class="beige">a UI / Frontend Developer</span></h1>
         <div class="intro-text">
-          <p>I am seeking a position within the San Francisco Bay Area. Interested in a job related to React or Angular frameworks.</p>
+          <p>
+            UI Engineer/ Frontend Developer, looking for a position related to
+            React within the San Francisco Bay Area.
+          </p>
         </div>
       </div>
       <div id="about-links">
-          <a href="#projects" class="btn">
-            <i class="fas fa-briefcase fa-lg"></i> Portfolio
-          </a>
-          <a href="/assets/N_Shport_Resume.pdf" alt="CV in PDF format" download class="btn">
-            <i class="fas fa-file-pdf fa-lg"></i> pdf CV 
-          </a>
-          <a href="/assets/N_Shport_Resume.docx" alt="CV in DOCX format" download class="btn">
-            <i class="fas fa-file-word fa-lg"></i> docx CV
-          </a>
-        </div>
+        <a href="#projects" class="btn">
+          <i class="fas fa-briefcase fa-lg"></i> Portfolio
+        </a>
+        <a
+          href="/assets/N_Shport_Resume.pdf"
+          alt="CV in PDF format"
+          download
+          class="btn"
+        >
+          <i class="fas fa-file-pdf fa-lg"></i> pdf CV
+        </a>
+        <a
+          href="/assets/N_Shport_Resume.docx"
+          alt="CV in DOCX format"
+          download
+          class="btn"
+        >
+          <i class="fas fa-file-word fa-lg"></i> docx CV
+        </a>
+      </div>
       <div id="about-introduction-bottom">
         <div class="my-mid-gray lead">
-          <p>This page made with pure Angular 7 templates and Bootstrap UI library</p>
+          <p>
+            This page made with Angular 7 templates and Bootstrap UI library
+          </p>
           <div class="">
             <i class="fab fa-html5 fa-2x text-primary mr-3"></i>
             <i class="fab fa-css3-alt fa-2x text-primary mr-3"></i>
@@ -51,8 +77,19 @@
     <app-section-title title="About" subtitle="About me"></app-section-title>
     <div class="lead px-4">
       <p>My name is Natalia. I am a Web Developer.</p>
-      <p>For 7 years I worked in a web-design studio, growing from editing pictures in Photoshop and databases updating to templating web-projects with XML/XSLT framework, leading projects, interviewing and coaching new team members.</p>
-      <p>Then I got a 10 years gap in my career. Now I started ower. I am learning modern frameworks - Angular and React, improving knowledge in developing responsive layouts for all desktop and mobile devices, discovering ways of using API, working with version control tools.</p>
+      <p>
+        For 7 years I worked in a web-design studio, growing from editing
+        pictures in Photoshop and databases updating to templating web-projects
+        with XML/XSLT framework, leading projects, interviewing and coaching new
+        team members.
+      </p>
+      <p>
+        Then I got a 10 years gap in my career. Now I started ower. I am
+        learning modern frameworks - Angular and React, improving knowledge in
+        developing responsive layouts for all desktop and mobile devices,
+        discovering ways of using API, working with version control tools.
+      </p>
     </div>
   </div>
-</section><!-- //About section -->
+</section>
+<!-- //About section -->
