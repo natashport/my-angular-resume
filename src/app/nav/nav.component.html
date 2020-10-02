@@ -48,7 +48,12 @@
     <a class="nav-link" href="#projects">Projects</a>
   </nav>
   <div *ngFor="let profile of contactData.profiles" class="mb-4">
-    <a *ngIf="profile.url" href="{{ profile.url }}" target="_blank">
+    <a
+      *ngIf="profile.url"
+      href="{{ profile.url }}"
+      rel="noreferrer"
+      target="_blank"
+    >
       <i class="{{ profile.icon }} fa-2x m-2"></i>
     </a>
   </div>
@@ -56,14 +61,19 @@
   <div>
     <small
       >Images:
-      <a href="http://unsplash.com" target="_blank">Unsplash.com</a></small
+      <a href="http://unsplash.com" rel="noreferrer" target="_blank"
+        >Unsplash.com</a
+      ></small
     >
   </div>
   <div class="mb-4">
     <small>
       Icons:
-      <a href="http://icons8.com" target="_blank">icons8.com</a><br />&
-      <a href="http://fontawesome.com" target="_blank">fontawesome.com</a>
+      <a href="http://icons8.com" rel="noreferrer" target="_blank">icons8.com</a
+      ><br />&
+      <a href="http://fontawesome.com" rel="noreferrer" target="_blank"
+        >fontawesome.com</a
+      >
     </small>
   </div>
 </aside>

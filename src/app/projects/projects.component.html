@@ -13,6 +13,7 @@
           <img
             src="/assets/{{ project.shortname }}.webp"
             class="img-fluid m-0"
+            alt="{{ project.projectname }}"
           />
         </div>
         <!-- card-body --><!-- front -->
@@ -40,16 +41,28 @@
               <img
                 src="/assets/icons/icon-{{ technology }}.png"
                 alt="{{ technology }}"
-                class="icon text-primary m-2"
+                class="icon text-primary m-1"
               />
             </span>
           </div>
           <div class="p-4 w-100">
             <span class="p-2" *ngIf="project.code">
-              <a href="{{ project.code }}" class="btn" target="_blank">Code</a>
+              <a
+                href="{{ project.code }}"
+                class="btn"
+                rel="noreferrer"
+                target="_blank"
+                >Code</a
+              >
             </span>
             <span class="p-2" *ngIf="project.demo">
-              <a href="{{ project.demo }}" class="btn" target="_blank">Demo</a>
+              <a
+                href="{{ project.demo }}"
+                class="btn"
+                rel="noreferrer"
+                target="_blank"
+                >Demo</a
+              >
             </span>
           </div>
         </div>

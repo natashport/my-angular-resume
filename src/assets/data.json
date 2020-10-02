@@ -271,6 +271,51 @@
   },
   "projects": [
     {
+      "projectname": "rest-of-us",
+      "shortname": "rest-of-us",
+      "url": "https://agitated-goldwasser-275f0f.netlify.app/",
+      "dates": {
+        "start": {
+          "year": "2020"
+        }
+      },
+      "description": "SPA blog app builded with React, React Hooks, implemented form validation, ​authentication, “following” feature, realtime chat / React, MongoDB, Socket.io, deployed on Netlify",
+      "technologies": [
+        "html5",
+        "css3",
+        "js",
+        "react",
+        "sass",
+        "mongodb",
+        "socketio"
+      ],
+      "code": "https://github.com/n3218/restOfUs",
+      "demo": "https://agitated-goldwasser-275f0f.netlify.app/"
+    },
+    {
+      "projectname": "e-catalogue",
+      "shortname": "e-catalogue",
+      "url": "https://e-ctlog.herokuapp.com/",
+      "dates": {
+        "start": {
+          "year": "2020"
+        }
+      },
+      "description": "E-commerce SPA application / React, Redux, Firebase, Google-authentication, Stripe payments",
+      "technologies": [
+        "html5",
+        "css3",
+        "js",
+        "react",
+        "redux",
+        "sass",
+        "firebase",
+        "stripe"
+      ],
+      "code": "https://github.com/n3218/e-catalog",
+      "demo": "https://e-ctlog.herokuapp.com/"
+    },
+    {
       "projectname": "shport.info",
       "shortname": "info",
       "url": "http://shport.info",
@@ -279,7 +324,7 @@
           "year": "2019"
         }
       },
-      "description": "Resume and Portfolio, made with Angular 7 templates, JSON data and Bootstrap UI library with some customization HTML5/CSS3",
+      "description": "Resume and Portfolio, made with Angular7 templates, JSON data and Bootstrap UI library with some customization HTML5/CSS3, deployed on AWS",
       "technologies": [
         "html5",
         "css3",
