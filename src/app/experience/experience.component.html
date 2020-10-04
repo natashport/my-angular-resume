@@ -1,47 +1,62 @@
+<section id="experience" *ngIf="experienceData">
+  <app-section-title
+    title="Experience"
+    subtitle="Work Experience"
+  ></app-section-title>
 
-<section id="experience" class="animated scrollanimated" *ngIf="experienceData">
-
-  <app-section-title title="Experience" subtitle="Work Experience"></app-section-title>
-
-  <div class="row">
-    <div 
-      *ngFor="let position of experienceData" 
-      class="col-sm-12 col-md-6 mb-4 animated scrollanimated showfromleft">
-
+  <div class="row _animate">
+    <div
+      *ngFor="let position of experienceData"
+      class="col-sm-12 col-md-6 mb-4"
+    >
       <div class="card mb-sm-0">
-
-        <a class="card-header collapsed" data-toggle="collapse" href="#collapse{{position.id}}" role="button" aria-expanded="false">
-          <h3 class="card-title m-0">{{ position.title }}</h3>
-        </a><!-- card-header -->
+        <a
+          class="card-header collapsed"
+          data-toggle="collapse"
+          href="#collapse{{ position.id }}"
+          role="button"
+          aria-expanded="false"
+        >
+          <h3 class="card-title m-0">{{ position.title }}</h3> </a
+        ><!-- card-header -->
 
         <div class="card-body text-left">
-          <div class="clearfix">
-            <div class="float-left">
-              <small>
-                {{ position.company }}
-                <div>{{ position.location }}</div>
-              </small>
-            </div>
-            <div class="float-right">
-              <span *ngIf="position.dates.start.year">{{position.dates.start.year}}</span>
-              <span *ngIf="position.dates.end.year"> - {{position.dates.end.year}}</span>
-            </div>
+          <div class="text-right">
+            <small *ngIf="position.dates.start.year">{{
+              position.dates.start.year
+            }}</small>
+            <small *ngIf="position.dates.end.year">
+              - {{ position.dates.end.year }}</small
+            >
           </div>
-          <div id="collapse{{position.id}}" class="card-text collapse">
-            <hr/>
+          <div>
+            {{ position.company }}<br />
+            <small>{{ position.location }}</small>
+          </div>
+          <div id="collapse{{ position.id }}" class="card-text collapse">
+            <hr />
             <ul>
-              <li *ngFor="let responsibility of position.responsibilities" class="text-left">{{ responsibility }}</li>
+              <li
+                *ngFor="let responsibility of position.responsibilities"
+                class="text-left"
+              >
+                {{ responsibility }}
+              </li>
             </ul>
             <div *ngIf="position.projects" class="text-secondary">
-              <h6>Key projects:</h6>
-              <div *ngFor="let keyproject of position.projects">{{ keyproject.url }}</div>
+              <div class="text-muted">Key projects:</div>
+              <div *ngFor="let keyproject of position.projects">
+                {{ keyproject.url }}
+              </div>
             </div>
-          </div><!-- card-text -->
-        </div><!-- card-body -->
-
-      </div><!-- card -->
+          </div>
+          <!-- card-text -->
+        </div>
+        <!-- card-body -->
+      </div>
+      <!-- card -->
     </div>
-  </div><!-- row -->
-
+  </div>
+  <!-- row -->
 </section>
 <!-- //Experience section -->

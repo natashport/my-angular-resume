@@ -1,21 +1,37 @@
 .section-title {
-  position: relative;  
+  position: relative;
   font-weight: 700;
-  opacity: 0.1;
-  z-index: 20;
   padding: 0;
   margin: 0;
-  font-size: 5em; 
+  font-size: 5em;
   line-height: 1em;
-}
 
-.section-subtitle {
-  position: absolute;
-  top: 0px;
-  left: 0px;
-  margin-top: 2.5em;
-  margin-left: 1em;
-  z-index: 30;
-  font-weight: 700;
-  opacity: 0.5;
+  .title {
+    transform: translate(0px, 120%);
+    transition: all 0.8s ease 0s;
+    opacity: 0;
+  }
+
+  .subtitle {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    margin-top: 0.5em;
+    margin-left: 1em;
+    font-weight: 700;
+    transform: translate(0px, 120%);
+    transition: all 0.8s ease 0.4s;
+    opacity: 0;
+  }
+
+  &._active {
+    .title {
+      opacity: 0.1;
+      transform: translate(0px, 0px);
+    }
+    .subtitle {
+      opacity: 0.4;
+      transform: translate(0px, 0px);
+    }
+  }
 }

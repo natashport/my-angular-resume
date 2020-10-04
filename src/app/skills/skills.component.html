@@ -1,9 +1,11 @@
-<section id="skills" class="animated scrollanimated" *ngIf="skillsData">
+<section id="skills" *ngIf="skillsData">
+  <app-section-title
+    title="Skills"
+    subtitle="Tools & Technologies"
+  ></app-section-title>
 
-  <app-section-title title="Skills" subtitle="Tools & Technologies"></app-section-title>
-  
-  <div class="text-center skills mx-2">
-    <a class="btn m-1" *ngFor="let skill of skillsData">{{ skill }}</a>
+  <div class="text-center skills mx-2 _animate _hide">
+    <span class="btn m-1" *ngFor="let skill of skillsData">{{ skill }}</span>
   </div>
-
-</section><!-- //Skills section -->
+</section>
+<!-- //Skills section -->

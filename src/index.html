@@ -16,10 +16,7 @@
       integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
       crossorigin="anonymous"
     />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css"
-    />
+
     <link
       rel="stylesheet"
       href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
@@ -31,6 +28,7 @@
 
   <body data-spy="scroll" data-target="#my-resume-navigation" data-offset="0">
     <app-root></app-root>
+
     <script
       src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
       integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
@@ -42,25 +40,6 @@
       crossorigin="anonymous"
     ></script>
 
-    <script>
-      $(document).ready(function () {
-        function isScrolledIntoView(elem) {
-          var docViewTop = $(window).scrollTop();
-          var docViewBottom = docViewTop + $(window).height();
-          var elemTop = $(elem).offset().top;
-          //var elemBottom = elemTop + $(elem).height();
-          var elemBottom = elemTop + 100;
-          return elemBottom <= docViewBottom || elemTop <= docViewTop;
-        }
-
-        $(window).scroll(function () {
-          $(".animated.scrollanimated").each(function () {
-            if (isScrolledIntoView(this) === true) {
-              $(this).addClass("fadeInUp");
-            }
-          });
-        });
-      });
-    </script>
+    <script type="text/javascript" href="/script.js"></script>
   </body>
 </html>

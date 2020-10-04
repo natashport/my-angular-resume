@@ -3,7 +3,6 @@ $primary: #05bdda;
 $bg-light: #f2f3f7;
 $enable-responsive-font-sizes: true;
 @import "../node_modules/bootstrap/scss/bootstrap";
-@import "../node_modules/animate";
 
 body {
   font-family: "Roboto", sans-serif;
@@ -45,15 +44,16 @@ body {
 
 section,
 .section {
-  min-height: 300px;
+  min-height: 250px;
   @extend .container-fluid;
-  padding: 4em 0 0 0;
+  padding: 1em 0 0 0;
   margin: 2em 0;
 }
 
 .row {
   margin: 0;
   padding: 0 0.5em 0 0.5em;
+
   > div {
     margin: 0;
     padding: 0 0.5em 0 0.5em;
@@ -94,8 +94,4 @@ hr {
       box-shadow: none;
     }
   }
-}
-
-.scrollanimated {
-  opacity: 0;
 }

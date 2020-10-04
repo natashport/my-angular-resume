@@ -1,4 +1,4 @@
-<section id="projects" *ngIf="projectsData" class="animated scrollanimated">
+<section id="projects" *ngIf="projectsData">
   <app-section-title
     title="Projects"
     subtitle="Projects done"
@@ -6,9 +6,10 @@
   <div class="row">
     <div
       *ngFor="let project of projectsData; index as i"
-      class="col-sm-12 col-md-6 mb-4 animated scrollanimated showfromleft"
+      class="col-sm-12 col-md-6 mb-4"
     >
-      <div id="project{{ i }}" class="project card h-100">
+      <!-- front -->
+      <div id="project{{ i }}" class="project card h-100 _animate">
         <div id="project{{ i }}-1" class="front card-body text-center">
           <img
             src="/assets/{{ project.shortname }}.webp"
@@ -16,7 +17,8 @@
             alt="{{ project.projectname }}"
           />
         </div>
-        <!-- card-body --><!-- front -->
+        <!-- card-body -->
+        <!-- //front -->
 
         <div
           id="project{{ i }}-2"
@@ -25,7 +27,7 @@
           <h4 class="card-title mb-0 text-warning display-6">
             {{ project.projectname }}
           </h4>
-          <div>
+          <div class="_animate">
             <small class="text-secondary">
               <span *ngIf="project.dates.start.year">{{
                 project.dates.start.year
@@ -35,7 +37,7 @@
               >
             </small>
           </div>
-          <div>
+          <div class="_animate">
             <p class="card-text">{{ project.description }}</p>
             <span *ngFor="let technology of project.technologies">
               <img
@@ -45,7 +47,7 @@
               />
             </span>
           </div>
-          <div class="p-4 w-100">
+          <div class="p-4 w-100 _animate">
             <span class="p-2" *ngIf="project.code">
               <a
                 href="{{ project.code }}"

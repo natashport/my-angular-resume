@@ -1,0 +1,14 @@
+.skills._animate {
+  > * {
+    transform: scale(0);
+    transition: transform 0.8s ease 0s;
+    opacity: 0;
+  }
+  &._active {
+    > * {
+      transform: scale(1);
+      transition: transform 0.8s ease 0s;
+      opacity: 1;
+    }
+  }
+}

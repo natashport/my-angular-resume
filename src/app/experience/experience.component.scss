@@ -1,25 +1,62 @@
-.card-header, .card-header.collapsed:hover{
-    border-bottom: 0px;
-    background-color: var(--primary);
-    text-decoration: none;
-    color: white;
+.card-header,
+.card-header.collapsed:hover {
+  border-bottom: 0px;
+  background-color: var(--primary);
+  text-decoration: none;
+  color: white;
 }
 
 .card-header::after {
-    font-family: "Font Awesome 5 Free"; 
-    font-weight: 700; 
-    font-size: 0.7em;
-    content: "\f068";
-    position: absolute;
-    top: 1.8em;
-    right: 2em;
-    z-index: 40;
+  font-family: "Font Awesome 5 Free";
+  font-weight: 700;
+  font-size: 0.7em;
+  content: "\f068";
+  position: absolute;
+  top: 1.8em;
+  right: 2em;
+  z-index: 40;
 }
 
 .card-header.collapsed {
-    background-color: white;
-    color: var(--primary);
-    &::after {
-        content: "\f067";
+  background-color: white;
+  color: var(--primary);
+  &::after {
+    content: "\f067";
+  }
+}
+
+.row._animate {
+  > div {
+    transform: translate(120%, 0px);
+    opacity: 0;
+    transition: all 1.2s ease 0s;
+    overflow: hidden;
+
+    .card-body {
+      padding: 0 1.25rem 1.25rem 1.25rem;
+      transform: translate(100%, 0px);
+      opacity: 0;
+      transition: all 1s ease 0s;
     }
+  }
+
+  &._active {
+    > div {
+      transform: translate(0px, 0px);
+      opacity: 1;
+      @for $var from 1 to 6 {
+        $delay: $var * 0.2;
+
+        &:nth-child(#{$var}) {
+          transition: all 1s ease #{$delay + s};
+
+          .card-body {
+            transform: translate(0px, 0px);
+            opacity: 1;
+            transition: all 1s ease #{$delay + s};
+          }
+        }
+      }
+    }
+  }
 }
