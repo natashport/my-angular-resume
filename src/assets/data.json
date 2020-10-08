@@ -285,6 +285,7 @@
         "css3",
         "js",
         "react",
+        "react-hooks",
         "sass",
         "mongodb",
         "socketio"
@@ -310,7 +311,9 @@
         "redux",
         "sass",
         "firebase",
-        "stripe"
+        "pwa",
+        "stripe",
+        "heroku"
       ],
       "code": "https://github.com/n3218/e-catalog",
       "demo": "https://e-ctlog.herokuapp.com/"
@@ -332,7 +335,8 @@
         "bootstrap",
         "sass",
         "json",
-        "jquery"
+        "jquery",
+        "aws"
       ],
       "code": "https://github.com/natashport/my-angular-resume/",
       "demo": "https://shport.info/"
