@@ -30,7 +30,9 @@
             >
           </div>
           <div>
-            {{ position.company }}<br />
+            <a href="{{ position.url }}" target="_blank">
+              {{ position.company }}</a
+            ><br />
             <small>{{ position.location }}</small>
           </div>
           <div id="collapse{{ position.id }}" class="card-text collapse">
@@ -43,10 +45,12 @@
                 {{ responsibility }}
               </li>
             </ul>
-            <div *ngIf="position.projects" class="text-secondary">
+            <div *ngIf="position.clients" class="text-secondary">
               <div class="text-muted">Key projects:</div>
-              <div *ngFor="let keyproject of position.projects">
-                {{ keyproject.url }}
+              <div *ngFor="let clients of position.clients">
+                <a href="http://{{ clients.url }}" target="_blank">{{
+                  clients.name
+                }}</a>
               </div>
             </div>
           </div>

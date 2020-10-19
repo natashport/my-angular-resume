@@ -132,22 +132,20 @@
         }
       },
       "responsibilities": [
-        "Handling incoming alerts, problems, requests from automated system and customers",
-        "Responding to customer requests",
-        "Logging tasks to project managing system",
-        "Manipulating data / MySQL, PSQL"
+        "Handling incoming alerts, problems, requests from automated systems and customers, logging and tracking tasks / JIRA, Slack",
+        "Manipulating data / SQL databases (MySQL, PostgreSQL), SSH"
       ]
     },
     {
       "id": "4",
-      "title": "Frontend Team Lead​",
+      "title": "UI Frontend Engineer",
       "company": "ADV/web-engineering co.",
       "location": "Moscow, Russia",
       "url": "https://advwe.com/",
       "dates": {
         "start": {
-          "month": "07",
-          "year": "2005"
+          "month": "01",
+          "year": "2002"
         },
         "end": {
           "month": "12",
@@ -155,56 +153,37 @@
         }
       },
       "responsibilities": [
-        "Managing all aspects of frontend engineering and project delivery",
-        "Collaboration with UI/UX and back-end engineering teams",
+        "Collaboration between UI/UX and back-end engineering teams",
         "Gathering and clarifying the business requirements with customers",
-        "Technical documentation creation",
-        "Hiring, training and supervising new team members",
-        "Customer support"
+        "Developing web applications / HTML, CSS, XML, XSLT",
+        "Content management / SQL, XML, SSH",
+        "Technical documentation",
+        "Customer support",
+        "Hiring, training and supervising new team members"
       ],
-      "projects": [
+      "clients": [
         {
+          "name": "Panasonic",
           "url": "panasonic.ru"
         },
         {
+          "name": "Toyota Business Car",
           "url": "toyotabc.ru"
         },
         {
+          "name": "Lexus Business Car",
           "url": "lexusbc.ru"
-        }
-      ]
-    },
-    {
-      "id": "3",
-      "title": "Frontend Engineer",
-      "company": "ADV/web-engineering co.",
-      "location": "Moscow, Russia",
-      "url": "https://advwe.com/",
-      "dates": {
-        "start": {
-          "year": "2002"
         },
-        "end": {
-          "month": "07",
-          "year": "2005"
-        }
-      },
-      "responsibilities": [
-        "Developing templates with various frameworks / HTML, CSS, XML, XSLT",
-        "Graphic optimization for Web",
-        "Animated GIFs and FLASH ad banners",
-        "Content management / SQL, XML, SSH",
-        "Technical documentation",
-        "QA validation and performance optimization. "
-      ],
-      "projects": [
         {
+          "name": "City-XXI",
           "url": "city-xxi.ru"
         },
         {
+          "name": "Colliers",
           "url": "colliers.ru"
         },
         {
+          "name": "Palladium",
           "url": "palladium.ru"
         }
       ]
@@ -214,6 +193,7 @@
       "title": "UI Engineer",
       "company": "Web2000",
       "location": "Moscow, Russia",
+      "url": "http://www.web2000.ru",
       "dates": {
         "start": {
           "year": "2001"
@@ -223,23 +203,22 @@
         }
       },
       "responsibilities": [
-        "Developing templates from visual design mockups / HTML, CSS, XML, XSLT",
-        "Updating and managing databases / SQL, SSH",
-        "Graphic optimization for Web",
-        "QA validation"
+        "Processing graphics and optimization for Web",
+        "Updating e-cataloguest data with CMS or SSH, SQL databases",
+        "Developing e-commerce apps from visual design mockups / HTML, CSS, XML, XSLT"
       ],
-      "projects": [
+      "clients": [
         {
-          "url": "bolero.ru"
+          "name": "Bolero.ru",
+          "url": "http://web.archive.org/web/20020119170912/http://bolero.ru/"
         },
         {
-          "url": "giftland.ru"
+          "name": "Giftland.ru",
+          "url": "http://web.archive.org/web/20020119230606/http://www.giftland.ru:80/"
         },
         {
-          "url": "podarki.com"
-        },
-        {
-          "url": "dostavkalinz.ru"
+          "name": "Dostavkalinz.ru",
+          "url": "http://web.archive.org/web/20011126213607/http://dostavkalinz.ru/"
         }
       ]
     },
@@ -248,6 +227,7 @@
       "title": "CAD Engineer​",
       "company": "TOM KLAIM",
       "location": "Moscow, Russia",
+      "url": "https://www.tomklaim.com/",
       "dates": {
         "start": {
           "month": "07",
@@ -259,7 +239,7 @@
         }
       },
       "responsibilities": [
-        "Automation manufacturing processes using computer-aided design systems (CAD)"
+        "Automation manufacturing processes using computer-aided design systems (CAD): Pattern making, digitizing, technical design, drafting and grading services."
       ]
     }
   ],
@@ -302,7 +282,7 @@
           "year": "2020"
         }
       },
-      "description": "E-commerce SPA application / React, Redux, Firebase, Google-authentication, Stripe payments, PWA",
+      "description": "E-commerce SPA application / React, Redux, Firebase, Google-authentication, Stripe payments, unit testing Jest, Progressive Web App",
       "technologies": [
         "html5",
         "css3",
