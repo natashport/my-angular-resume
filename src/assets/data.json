@@ -193,7 +193,7 @@
       "title": "UI Engineer",
       "company": "Web2000",
       "location": "Moscow, Russia",
-      "url": "http://www.web2000.ru",
+      "url": "http://web.archive.org/web/20020829065934/http://www.web2000.ru/clients/portfolio.html",
       "dates": {
         "start": {
           "year": "2001"
@@ -219,6 +219,10 @@
         {
           "name": "Dostavkalinz.ru",
           "url": "http://web.archive.org/web/20011126213607/http://dostavkalinz.ru/"
+        },
+        {
+          "name": "Antre.ru",
+          "url": "http://web.archive.org/web/20020829145346/http://www.antre.ru/"
         }
       ]
     },
