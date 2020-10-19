@@ -164,27 +164,27 @@
       "clients": [
         {
           "name": "Panasonic",
-          "url": "panasonic.ru"
+          "url": "http://web.archive.org/web/20060305111257/http://www.panasonic.ru/"
         },
         {
           "name": "Toyota Business Car",
-          "url": "toyotabc.ru"
+          "url": "https://toyotabc.ru/"
         },
         {
           "name": "Lexus Business Car",
-          "url": "lexusbc.ru"
+          "url": "https://lexusbc.ru/"
         },
         {
           "name": "City-XXI",
-          "url": "city-xxi.ru"
+          "url": "https://city-xxi.ru/"
         },
         {
           "name": "Colliers",
-          "url": "colliers.ru"
+          "url": "https://web.archive.org/web/20080211102855/http://www.colliers.ru/"
         },
         {
           "name": "Palladium",
-          "url": "palladium.ru"
+          "url": "https://palladium.ru/"
         }
       ]
     },
@@ -227,7 +227,7 @@
       "title": "CAD Engineer​",
       "company": "TOM KLAIM",
       "location": "Moscow, Russia",
-      "url": "https://www.tomklaim.com/",
+      "url": "https://www.tomklaim.com",
       "dates": {
         "start": {
           "month": "07",

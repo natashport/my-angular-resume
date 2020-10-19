@@ -48,12 +48,9 @@
             <div *ngIf="position.clients" class="text-secondary">
               <div class="text-muted">Key projects:</div>
               <div *ngFor="let clients of position.clients">
-                <a
-                  href="http://{{ clients.url }}"
-                  target="_blank"
-                  rel="noreferrer"
-                  >{{ clients.name }}</a
-                >
+                <a href="{{ clients.url }}" target="_blank" rel="noreferrer">{{
+                  clients.name
+                }}</a>
               </div>
             </div>
           </div>
