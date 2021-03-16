@@ -255,6 +255,62 @@
   },
   "projects": [
     {
+      "projectname": "woolunatic",
+      "shortname": "woolunatic",
+      "url": "https://woolunatics-project.ew.r.appspot.com",
+      "dates": {
+        "start": {
+          "year": "2021"
+        }
+      },
+      "description": "An extended version of the last application. Implemented products filter in the catalogue. Custom CMS, data update by CSV upload, multiple images upload to GCloud Storage. PayPal and Mollie Payments. Deployed on GCloud App Engine.",
+      "technologies": [
+        "html5",
+        "css3",
+        "js",
+        "react",
+        "react-hooks",
+        "redux",
+        "react-bootstrap",
+        "mongodb",
+        "mongoose",
+        "paypal",
+        "mollie",
+        "jwt",
+        "gcloud",
+        "app-engine"
+      ],
+      "code": "https://github.com/n3218/woolunatic",
+      "demo": "https://woolunatics-project.ew.r.appspot.com"
+    },
+    {
+      "projectname": "wlunatic",
+      "shortname": "wlunatic",
+      "url": "https://wlunatic.herokuapp.com",
+      "dates": {
+        "start": {
+          "year": "2020"
+        }
+      },
+      "description": "E-commerce application builded with React, React Hooks, Redux, React-Bootstrap, JWT ​authentication, PayPal Payments, MongoDB/Mongoose. Deployed on Heroku.",
+      "technologies": [
+        "html5",
+        "css3",
+        "js",
+        "react",
+        "react-hooks",
+        "redux",
+        "react-bootstrap",
+        "mongodb",
+        "mongoose",
+        "paypal",
+        "jwt",
+        "heroku"
+      ],
+      "code": "https://github.com/n3218/mern-shop",
+      "demo": "https://wlunatic.herokuapp.com"
+    },
+    {
       "projectname": "rest-of-us",
       "shortname": "rest-of-us",
       "url": "https://agitated-goldwasser-275f0f.netlify.app/",
@@ -263,7 +319,7 @@
           "year": "2020"
         }
       },
-      "description": "SPA blog app builded with React, React Hooks, implemented form validation, ​authentication, “following” feature, realtime chat / React, MongoDB, Socket.io, deployed on Netlify",
+      "description": "SPA blog app builded with React, React Hooks, implemented form validation, ​authentication, “following” feature, realtime chat / React, MongoDB, Socket.io, deployed on Netlify.",
       "technologies": [
         "html5",
         "css3",
@@ -272,7 +328,8 @@
         "react-hooks",
         "sass",
         "mongodb",
-        "socketio"
+        "socketio",
+        "netlify"
       ],
       "code": "https://github.com/n3218/restOfUs",
       "demo": "https://agitated-goldwasser-275f0f.netlify.app/"
@@ -286,7 +343,7 @@
           "year": "2020"
         }
       },
-      "description": "E-commerce SPA application / React, Redux, Firebase, Google-authentication, Stripe payments, unit testing Jest, Progressive Web App",
+      "description": "E-commerce SPA application / React, Redux, Firebase, Google-authentication, Stripe payments, unit testing Jest, Progressive Web App.",
       "technologies": [
         "html5",
         "css3",
@@ -311,7 +368,7 @@
           "year": "2019"
         }
       },
-      "description": "Resume and Portfolio, made with Angular7 templates, JSON data and Bootstrap UI library with some customization HTML5/CSS3, deployed on AWS",
+      "description": "Resume and Portfolio, made with Angular7 templates, JSON data and Bootstrap UI library with some customization HTML5/CSS3, deployed on AWS.",
       "technologies": [
         "html5",
         "css3",
@@ -337,7 +394,7 @@
           "year": "2016"
         }
       },
-      "description": "Knitters community, yarn / projects database and marketplace - UI design, eCommerce marketplace development (orders creation, handling and tracking), forum/community and photo gallery maintenance, end-user support",
+      "description": "Knitters community, yarn / projects database and marketplace - UI design, eCommerce marketplace development (orders creation, handling and tracking), forum/community and photo gallery maintenance, end-user support.",
       "technologies": ["html", "css", "js", "php", "mysql"],
       "code": "",
       "demo": "https://web.archive.org/web/20161008153817/http://yarnart.org/"
@@ -354,7 +411,7 @@
           "year": "2017"
         }
       },
-      "description": "Online store for the flower designer - The concept, UI/UX, DB data structure and content management system, marketplace functionality, full-stack engineering",
+      "description": "Online store for the flower designer - The concept, UI/UX, DB data structure and content management system, marketplace functionality, full-stack engineering.",
       "technologies": ["html", "css", "js", "php", "mysql"],
       "code": "",
       "demo": "https://web.archive.org/web/20120401165639/http://bm-buket.ru:80/"
@@ -371,7 +428,7 @@
           "year": "2003"
         }
       },
-      "description": "Catalogue of communication systems and services - UI design, concept, DB data structure, content management system, full-stack engineering and project delivery",
+      "description": "Catalogue of communication systems and services - UI design, concept, DB data structure, content management system, full-stack engineering and project delivery.",
       "technologies": ["html", "css", "js", "php", "mysql"],
       "code": "",
       "demo": "https://web.archive.org/web/20031130195508/http://www.cnts.ru/"
@@ -382,7 +439,7 @@
       "title": "UI / Frontend",
       "subtitle": "Developer",
       "text": "looking for a position related to React within the San Francisco Bay Area.",
-      "image": "/assets/slide-9.webp",
+      "image": "/assets/slide-9.jpg",
       "isactive": "active",
       "icons": ""
     },
@@ -390,7 +447,7 @@
       "title": "This page",
       "subtitle": "made with",
       "text": "Angular 7 templates and Bootstrap UI library",
-      "image": "/assets/slide-5.webp",
+      "image": "/assets/slide-5.jpg",
       "isactive": "",
       "icons": "true"
     }
