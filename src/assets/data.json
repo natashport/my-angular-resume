@@ -263,7 +263,7 @@
           "year": "2021"
         }
       },
-      "description": "An extended version of the last application. Implemented products filter in the catalogue. Custom CMS, data update by CSV upload, multiple images upload to GCloud Storage. PayPal and Mollie Payments. Deployed on GCloud App Engine.",
+      "description": "An extended version of the last application. Implemented products filter in the catalogue, custom CMS: data update by CSV uploading, multiple images uploading to GCloud Storage. PayPal and Mollie Payments. Deployed on GCloud App Engine.",
       "technologies": [
         "html5",
         "css3",
