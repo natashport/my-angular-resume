@@ -255,15 +255,15 @@
   },
   "projects": [
     {
-      "projectname": "woolunatic",
-      "shortname": "woolunatic",
-      "url": "https://woolunatics-project.ew.r.appspot.com",
+      "projectname": "yarnstore",
+      "shortname": "yarnstore",
+      "url": "https://yarnstore.shport.info/",
       "dates": {
         "start": {
           "year": "2021"
         }
       },
-      "description": "An extended version of the last application. Implemented products filter in the catalogue, custom CMS: data update by CSV uploading, multiple images uploading to GCloud Storage. PayPal and Mollie Payments. Deployed on GCloud App Engine.",
+      "description": "An extended version of the last application. Implemented products filter in the catalogue, custom CMS: data update by CSV uploading, multiple images uploading to GCloud Storage. PayPal and Mollie Payments.",
       "technologies": [
         "html5",
         "css3",
@@ -281,18 +281,18 @@
         "app-engine"
       ],
       "code": "https://github.com/n3218/woolunatic",
-      "demo": "https://woolunatics-project.ew.r.appspot.com"
+      "demo": "https://yarnstore.shport.info/"
     },
     {
-      "projectname": "wlunatic",
-      "shortname": "wlunatic",
-      "url": "https://wlunatic.herokuapp.com",
+      "projectname": "y-collection",
+      "shortname": "y-collection",
+      "url": "https://y-collection.shport.info/",
       "dates": {
         "start": {
           "year": "2020"
         }
       },
-      "description": "E-commerce application builded with React, React Hooks, Redux, React-Bootstrap, JWT ​authentication, PayPal Payments, MongoDB/Mongoose. Deployed on Heroku.",
+      "description": "E-commerce application builded with React, React Hooks, Redux, React-Bootstrap, JWT ​authentication, PayPal Payments, MongoDB/Mongoose. Deployed on GCloud App Engine.",
       "technologies": [
         "html5",
         "css3",
@@ -305,10 +305,11 @@
         "mongoose",
         "paypal",
         "jwt",
-        "heroku"
+        "gcloud",
+        "app-engine"
       ],
-      "code": "https://github.com/n3218/mern-shop",
-      "demo": "https://wlunatic.herokuapp.com"
+      "code": "https://github.com/n3218/y-collection",
+      "demo": "https://y-collection.shport.info/"
     },
     {
       "projectname": "rest-of-us",
@@ -377,7 +378,8 @@
         "sass",
         "json",
         "jquery",
-        "aws"
+        "gcloud",
+        "app-engine"
       ],
       "code": "https://github.com/natashport/my-angular-resume/",
       "demo": "https://shport.info/"
