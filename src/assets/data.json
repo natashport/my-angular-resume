@@ -292,7 +292,7 @@
           "year": "2020"
         }
       },
-      "description": "E-commerce application builded with React, React Hooks, Redux, React-Bootstrap, JWT ​authentication, PayPal Payments, MongoDB/Mongoose. Deployed on GCloud App Engine.",
+      "description": "E-commerce application / React, React Hooks, Redux, React-Bootstrap, JWT ​authentication, PayPal Payments, MongoDB/Mongoose. Deployed on GCloud App Engine.",
       "technologies": [
         "html5",
         "css3",
